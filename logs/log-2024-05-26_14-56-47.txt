@@ -1,0 +1,81 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\player.dta (1869 lumps)
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\player.dta|SOC_PLAY
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\patch.pk3 (18 lumps)
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2024-05-26_14-56-47.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Sep  9 2023 01:19:03 a4a3b5b0 master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to play Record Attack.
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\CL_AAA_Rouge.pk3 (193 lumps)
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\CL_AAA_Rouge.pk3|SOC/SOC_PLAY
+CL_AAA_Rouge.pk3 added 1 frames in 1 sprites
+Added skin 'rouge'
+No maps added
+Starting Server....
+Speeding off to level...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

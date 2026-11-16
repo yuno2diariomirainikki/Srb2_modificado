@@ -1,0 +1,1677 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\player.dta (1869 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\player.dta|SOC_PLAY
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\patch.pk3 (18 lumps)
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Unknown command 'oldc_whopicks'
+Unknown command 'oldc_votetime'
+Unknown command 'silv_memevoices'
+Unknown command 'silv_norollangle'
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2024-12-25_22-46-35.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Sep  9 2023 01:19:03 a4a3b5b0 master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to play Record Attack.
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3 (476 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Defs.LUA
+Pardon me while I initialize the Lua scripting interface...
+Sound sfx_thrw1 allocated.
+Sound sfx_thrw2 allocated.
+Sound sfx_thrw3 allocated.
+Sound sfx_thrw4 allocated.
+Sound sfx_skill1 allocated.
+Sound sfx_skill2 allocated.
+Sound sfx_skill3 allocated.
+Sound sfx_skills allocated.
+Sound sfx_silrip allocated.
+Sound sfx_float allocated.
+Sound sfx_cancel allocated.
+Sound sfx_levi allocated.
+Sound sfx_psybst allocated.
+Sprite SPR_SFLI allocated.
+State S_SILV_WARNINGINDICATOR allocated.
+State S_SILV_TIREDINDICATOR allocated.
+Sprite SPR_SLCK allocated.
+State S_LOCKON_SILV allocated.
+Sprite SPR_FRAG allocated.
+State S_FRAG1 allocated.
+State S_FRAG2 allocated.
+State S_FRAG3 allocated.
+State S_FRAG4 allocated.
+State S_FRAG5 allocated.
+Sprite SPR_HOWL allocated.
+State S_HOWL1 allocated.
+State S_HOWL2 allocated.
+State S_HOWL3 allocated.
+Sprite SPR_RGRB allocated.
+Sprite SPR_KLIT allocated.
+MobjType MT_PSYHITBOX allocated.
+State S_SILVTHROW allocated.
+MobjType MT_EGGROBO_SPAWNHELPER allocated.
+State S_EGGROBO_SPAWNHELPER allocated.
+MobjType MT_SILVERTRAIL allocated.
+Sprite SPR_STHK allocated.
+State S_SILVERTRAIL1 allocated.
+State S_SILVERTRAIL2 allocated.
+MobjType MT_SILV_IDLEHOLD allocated.
+State S_SILV_IDLEHOLD allocated.
+Sprite SPR2_GARD allocated.
+State S_PLAY_SILVGUARD allocated.
+State S_LASER_FLAGSET allocated.
+MobjType MT_PSYCHOCUT allocated.
+Sprite SPR_PSCT allocated.
+Sound sfx_pscut allocated.
+State S_PSYCUT allocated.
+State S_PSYCUT2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Cmd.Lua
+Added command "silv_auracolor"
+Added command "silv_invertflight"
+Added command "silv_throwall"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Main.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Carry.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_TK_extra.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Telekinesis.lua
+Sound sfx_ovrchr allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Shield.lua
+Sprite SPR_KLIT allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Cut.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Bot.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_BattleMod.Lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Captions.lua
+--------------------------------------------------
+
+Silver the Hedgehog - v2.12 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|SOC/SOC_PLAY
+VCL_Silver-v2.12.pk3 added 69 frames in 8 sprites
+WARNING: Bad sprite name: STNDA5 (
+WARNING: Bad sprite name: WAITA1 (
+WARNING: Bad sprite name: WAITA5 (
+WARNING: Bad sprite name: RUN_A1 (
+WARNING: Bad sprite name: RUN_A2 (
+WARNING: Bad sprite name: RUN_A3 (
+WARNING: Bad sprite name: RUN_A4 (
+WARNING: Bad sprite name: RUN_A5 (
+WARNING: Bad sprite name: RUN_A6 (
+WARNING: Bad sprite name: RUN_A7 (
+WARNING: Bad sprite name: RUN_A8 (
+WARNING: Bad sprite name: RUN_B1 (
+WARNING: Bad sprite name: RUN_B2 (
+WARNING: Bad sprite name: RUN_B3 (
+WARNING: Bad sprite name: RUN_B4 (
+WARNING: Bad sprite name: RUN_B5 (
+WARNING: Bad sprite name: RUN_B6 (
+WARNING: Bad sprite name: RUN_B7 (
+WARNING: Bad sprite name: RUN_B8 (
+WARNING: Bad sprite name: GASPA1 (
+WARNING: Bad sprite name: GASPA5 (
+WARNING: Bad sprite name: FALLA4 (
+WARNING: Bad sprite name: FALLB4 (
+WARNING: Bad sprite name: FALLA5 (
+WARNING: Bad sprite name: FALLB5 (
+WARNING: Bad sprite name: FALLA6 (
+WARNING: Bad sprite name: FALLB6 (
+WARNING: Bad sprite name: RIDEA1 (
+WARNING: Bad sprite name: RIDEA5 (
+WARNING: Bad sprite name: FLT_A5 (
+WARNING: Bad sprite name: FRUNA1 (
+WARNING: Bad sprite name: FRUNA5 (
+WARNING: Bad sprite name: FRUNB1 (
+WARNING: Bad sprite name: FRUNB5 (
+WARNING: Bad sprite name: GARDA1 (
+WARNING: Bad sprite name: GARDA5 (
+Added skin 'silver'
+No maps added
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3 (317 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Defs.LUA
+Sound sfx_wngfl allocated.
+Sound sfx_wngapr allocated.
+Sound sfx_hsdash allocated.
+Sound sfx_hsslas allocated.
+Sound sfx_skew allocated.
+Sprite SPR2_MFAL allocated.
+State S_PLAY_MIDFALL allocated.
+Sprite SPR2_FLTE allocated.
+State S_PLAY_FLOATEND allocated.
+Sprite SPR2_FLTS allocated.
+State S_PLAY_FLOATSTART allocated.
+State S_PLAY_APGUARD allocated.
+Sprite SPR2_HWLP allocated.
+Sprite SPR2_HOWL allocated.
+State S_PLAY_HOWLING_PREP1 allocated.
+State S_PLAY_HOWLING_PREP2 allocated.
+State S_PLAY_HOWLING allocated.
+State S_PLAY_HANDSONIC allocated.
+Sprite SPR2_BLSH allocated.
+Sprite SPR2_KHUG allocated.
+State S_KANADE_B allocated.
+State S_KANADE_H allocated.
+MobjType MT_KANADEWING allocated.
+State S_KANADEWING allocated.
+Sprite SPR_KWNG allocated.
+MobjType MT_KANADEUPDRAFT allocated.
+Sprite SPR_UDRT allocated.
+MobjType MT_HS_HITBOX allocated.
+Sprite SPR_HSSL allocated.
+State S_HANDSONIC_SLASH1 allocated.
+State S_HANDSONIC_SLASH2 allocated.
+State S_HANDSONIC_SLASH3 allocated.
+State S_HANDSONIC_STAB allocated.
+Sprite SPR_HSST allocated.
+Sprite SPR_WSRK allocated.
+State S_WINGSPARK1 allocated.
+State S_WINGSPARK2 allocated.
+State S_WINGSPARK3 allocated.
+State S_WINGSPARK4 allocated.
+State S_WINGSPARK5 allocated.
+Sound sfx_howl1 allocated.
+Sound sfx_howl2 allocated.
+MobjType MT_HOWLING allocated.
+Sprite SPR_HOWL allocated.
+State S_KHOWL1 allocated.
+State S_KHOWL2 allocated.
+State S_KHOWL3 allocated.
+MobjType MT_AP_PAINMOBJ allocated.
+State S_AP_PAINMOBJ allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_AngelWings.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_badnikCut.LUA
+Sprite SPR_SLCB allocated.
+Sprite SPR_SLC2 allocated.
+Sprite SPR_SLC3 allocated.
+MobjType MT_SLICEDPART allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_HandSonic.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Extras.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Overdrive.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_BattleMod.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Main.LUA
+--------------------------------------------------
+
+Kanade Tachibana - v1.1 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|SOC/SOC_PLAY
+cl_Kanade-v1.1.pk3 added 72 frames in 9 sprites
+Added skin 'kanade'
+No maps added
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3 (4051 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|init.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/Defs.lua
+MobjType MT_HUBSPOT allocated.
+MobjType MT_LEVELSPOT allocated.
+State S_LEVELSPOT allocated.
+Sprite SPR_LVLA allocated.
+Sprite SPR_LVLB allocated.
+Sprite SPR_LVLC allocated.
+Sprite SPR_CIRC allocated.
+MobjType MT_LEVELPORTAL allocated.
+State S_LEVELPORTAL1 allocated.
+State S_LEVELPORTAL2 allocated.
+State S_LEVELPORTAL3 allocated.
+State S_BOSSPORTAL1 allocated.
+State S_BOSSPORTAL2 allocated.
+State S_BOSSPORTAL3 allocated.
+State S_DISABLEDPORTAL1 allocated.
+State S_DISABLEDPORTAL2 allocated.
+State S_DISABLEDPORTAL3 allocated.
+MobjType MT_LEVELLIGHT allocated.
+State S_LEVELLIGHT1 allocated.
+State S_LEVELLIGHT2 allocated.
+Sprite SPR_MAPP allocated.
+MobjType MT_LEVELSPARKLE allocated.
+State S_LEVELSPARKLE1 allocated.
+State S_LEVELSPARKLE2 allocated.
+State S_LEVELSPARKLE3 allocated.
+State S_LEVELSPARKLE4 allocated.
+State S_BOSSSPARKLE1 allocated.
+State S_BOSSSPARKLE2 allocated.
+State S_BOSSSPARKLE3 allocated.
+State S_BOSSSPARKLE4 allocated.
+Sprite SPR_HSPK allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/Globals.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/Functions.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/CVars.lua
+Added command "abortlevel"
+oldc_whopicks set to All
+oldc_nolives set to On
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/Thinkers.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/HUD.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/Net.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/l_Axis2D.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/OLDC/titlescreen.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/Hub/CharaSwapper.lua
+MobjType MT_CHARASWAPPER allocated.
+State S_CHARASWAPPER allocated.
+Sprite SPR_CHAR allocated.
+Sprite SPR_CHTB allocated.
+Sprite SPR_HTRG allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/Hub/NoSpecialStages.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/Hub/BecauseYouJustToldMeFoxBoy.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_BOTL
+MobjType MT_BOTL allocated.
+State S_BOTLSIT allocated.
+State S_BOTLFLY allocated.
+State S_BOTLFALL allocated.
+Sprite SPR_BOTL allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_CORO
+MobjType MT_CORONA allocated.
+State S_CORONA allocated.
+Sprite SPR_CORO allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_CYCLA
+MobjType MT_CYCLA allocated.
+State S_CYCLALOOK allocated.
+State S_CYCLACHASE allocated.
+State S_CYCLADRIFT allocated.
+State S_CYCLADED0 allocated.
+State S_CYCLADED1 allocated.
+State S_CYCLADED2 allocated.
+State S_CYCLADED3 allocated.
+Sound sfx_cengin allocated.
+Sound sfx_cdrift allocated.
+Sprite SPR_CPOS allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_BIBUBL
+MobjType MT_BIGBUBBLEPATCH allocated.
+State S_BIGBUBBLEPATCH allocated.
+MobjType MT_BIGFLOWBUBBLE allocated.
+State S_BIGFLOWBUBBLE0 allocated.
+State S_BIGFLOWBUBBLE1 allocated.
+State S_BIGFLOWBUBBLE2 allocated.
+State S_BIGFLOWBUBBLE3 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_HUNTER
+MobjType MT_FOXHUNTER allocated.
+State S_FOXHUNTERLOOK0 allocated.
+State S_FOXHUNTERLOOK1 allocated.
+State S_FOXHUNTERAIM0 allocated.
+State S_FOXHUNTERSHOOT0 allocated.
+MobjType MT_SNIPERSHOT allocated.
+State S_SNIPERSHOT allocated.
+MobjType MT_HUNTERCORONA allocated.
+State S_HUNTERCORONA allocated.
+Sprite SPR_FHUN allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_FLYBOOST
+MobjType MT_FLYBOOSTER allocated.
+State S_FLYBOOSTER allocated.
+State S_FLYBOOSTERCD1 allocated.
+State S_FLYBOOSTERCD2 allocated.
+MobjType MT_FLYBOOSTERGLOW allocated.
+State S_FLYBOOSTERGLOW allocated.
+State S_FLYBOOSTERGLOW2 allocated.
+State S_FLYBOOSTERGLOW3 allocated.
+State S_FLYBOOSTERGLOW4 allocated.
+State S_FLYBOOSTERGLOW5 allocated.
+State S_FLYBOOSTERFRONT allocated.
+State S_FLYBOOSTERARROWS allocated.
+Sprite SPR_FLYB allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_MACH
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/SpeedHighway/LUA_GlassPhysics
+MobjType MT_WINZ allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/EggTV/LUA_PinkBear2
+MobjType MT_PNKY allocated.
+Sprite SPR_PNKY allocated.
+State S_PNKY_STND allocated.
+State S_PNKY_WALK1 allocated.
+State S_PNKY_WALK2 allocated.
+State S_PNKY_FWALK1 allocated.
+State S_PNKY_FWALK2 allocated.
+Sound sfx_vase allocated.
+Sound sfx_vplt allocated.
+Sound sfx_wflw allocated.
+Sound sfx_swut allocated.
+Sound sfx_swat allocated.
+Sound sfx_evyekd allocated.
+Sound sfx_bere allocated.
+Sound sfx_bers allocated.
+Sound sfx_berl allocated.
+Sound sfx_axe allocated.
+Sound sfx_chef allocated.
+Sound sfx_meas allocated.
+Sound sfx_papr allocated.
+Sound sfx_glass allocated.
+Sound sfx_glas allocated.
+Sound sfx_leaf allocated.
+Sound sfx_olady allocated.
+Sound sfx_odrone allocated.
+Sound sfx_pber allocated.
+Sound sfx_metc allocated.
+Sound sfx_mdor allocated.
+Sound sfx_news allocated.
+Sound sfx_moona allocated.
+Sound sfx_moonb allocated.
+State S_SQUISHEDTODEATH allocated.
+Sprite SPR_SSUC allocated.
+State S_SMASHCLOUD allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/EggTV/LUA_Shards1
+MobjType MT_XLIN allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/EggTV/LUA_Shards2
+MobjType MT_XXNG allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/EggTV/LUA_SwatShards
+MobjType MT_SWAT allocated.
+Sound sfx_pabr allocated.
+Sound sfx_panic allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/EggTV/LUA_BearShards
+MobjType MT_PNKY allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/EggTV/LUA_DoorShards
+MobjType MT_TVDR allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/EggTV/RogerChairMobj.lua
+MobjType MT_ROGERCHAIR allocated.
+State S_ROGERCHAIR_IDLE allocated.
+State S_ROGERCHAIR_TRIG allocated.
+Sprite SPR_CHRS allocated.
+Sprite SPR_MASH allocated.
+State S_MASHBUTTONS allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/PoisonTemple/LUA_ELEC
+MobjType MT_ELECTRIDUS allocated.
+MobjType MT_ELECTRIDUSBALL allocated.
+Sprite SPR_THMG allocated.
+State S_THMG1 allocated.
+State S_THMG2 allocated.
+State S_THMG3 allocated.
+State S_ELECTRIDUS_STND allocated.
+State S_ELECTRIDUS_RUN allocated.
+State S_ELECTRIDUSBALL allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/PoisonTemple/LUA_ELFS
+MobjType MT_ELECTRICFLOWER allocated.
+Sprite SPR_EFLO allocated.
+State S_EFLO1 allocated.
+State S_EFLO2 allocated.
+State S_EFLO3 allocated.
+State S_EFLO4 allocated.
+MobjType MT_ELECTRICBUDD allocated.
+Sprite SPR_EFLA allocated.
+State S_EFLA1 allocated.
+State S_EFLA2 allocated.
+MobjType MT_ELECTRICTURRET allocated.
+Sprite SPR_ELET allocated.
+State S_ELET1 allocated.
+State S_ELET2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/PoisonTemple/LUA_ELTH
+MobjType MT_ELEMENTALTHUNDER allocated.
+Sprite SPR_ELTH allocated.
+State S_ELTH_1 allocated.
+State S_ELTH_2 allocated.
+State S_ELTH_3 allocated.
+State S_ELTH_4 allocated.
+State S_ELTH_5 allocated.
+State S_ELTH_6 allocated.
+State S_ELTH_7 allocated.
+State S_ELTH_8 allocated.
+State S_ELTH_9 allocated.
+State S_ELTH_10 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/PoisonTemple/LUA_ETUR
+MobjType MT_ELECTRICTURRET2 allocated.
+Sprite SPR_ELEU allocated.
+State S_ELEU1 allocated.
+State S_ELEU2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/PoisonTemple/LUA_FAIR
+MobjType MT_FAIRY allocated.
+Sprite SPR_FAIR allocated.
+State S_FAIR_1 allocated.
+State S_FAIR_2 allocated.
+State S_FAIR_3 allocated.
+Sound sfx_wawn allocated.
+Sound sfx_evyedg allocated.
+Sound sfx_endamg allocated.
+Sound sfx_hurtb allocated.
+Sound sfx_ratto allocated.
+Sound sfx_magic allocated.
+Sound sfx_evyekd allocated.
+Sound sfx_bosskl allocated.
+Sound sfx_elemkl allocated.
+Sound sfx_evyeos allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/PoisonTemple/LUA_TYOB
+MobjType MT_ZAXELD allocated.
+Sprite SPR_ZAXE allocated.
+State S_ZAX_1 allocated.
+State S_ZAX_2 allocated.
+MobjType MT_DANCERI allocated.
+Sprite SPR_AGRL allocated.
+State S_AGRL_1 allocated.
+State S_AGRL_2 allocated.
+State S_AGRL_3 allocated.
+State S_AGRL_4 allocated.
+MobjType MT_DANCERII allocated.
+Sprite SPR_BGRL allocated.
+State S_BGRL_1 allocated.
+State S_BGRL_2 allocated.
+MobjType MT_DANCERIII allocated.
+Sprite SPR_CGRL allocated.
+State S_CGRL_1 allocated.
+State S_CGRL_2 allocated.
+State S_CGRL_3 allocated.
+State S_CGRL_4 allocated.
+MobjType MT_RAICHU allocated.
+Sprite SPR_RAIC allocated.
+State S_RAIC_1 allocated.
+State S_RAIC_2 allocated.
+State S_RAIC_3 allocated.
+State S_RAIC_4 allocated.
+State S_RAIC_5 allocated.
+MobjType MT_ZAPDOS allocated.
+Sprite SPR_ZAPD allocated.
+State S_ZAPD1 allocated.
+State S_ZAPD2 allocated.
+State S_ZAPD3 allocated.
+State S_ZAPD4 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/GreensHill/ESP_Freeslot_Combi.lua
+MobjType MT_COMBINE_BOX allocated.
+MobjType MT_COMBINE_GOLDBOX allocated.
+MobjType MT_COMBINE_ICON allocated.
+State S_COMBINE_BOX allocated.
+State S_COMBINE_GOLDBOX allocated.
+State S_COMBINE_ICON1 allocated.
+State S_COMBINE_ICON2 allocated.
+Sprite SPR_VMCO allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/GreensHill/ESP_Logic_Powerup.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/GreensHill/ESP_Freeslot_Init.lua
+MobjType MT_EXTRA_ORB allocated.
+State S_EXTRA_ORB allocated.
+Sprite SPR_ORB_ allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/GreensHill/ESP_HUD.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/CreepyCrypt/LUA_DEFS
+MobjType MT_JANO allocated.
+MobjType MT_JANO_FIRE allocated.
+MobjType MT_YELLOW_LUM allocated.
+State S_JANO_STND1 allocated.
+State S_JANO_STND2 allocated.
+State S_JANO_STND3 allocated.
+State S_JANO_RUN1 allocated.
+State S_JANO_RUN2 allocated.
+State S_JANO_RUN3 allocated.
+State S_JANO_FIRE allocated.
+State S_YELLOW_LUM_1 allocated.
+State S_YELLOW_LUM_2 allocated.
+State S_YELLOW_LUM_3 allocated.
+State S_YELLOW_LUM_4 allocated.
+State S_YELLOW_LUM_GOT_1 allocated.
+State S_YELLOW_LUM_GOT_2 allocated.
+State S_YELLOW_LUM_GOT_3 allocated.
+State S_YELLOW_LUM_GOT_4 allocated.
+State S_YELLOW_LUM_GOT_5 allocated.
+State S_YELLOW_LUM_GOT_6 allocated.
+State S_YELLOW_LUM_GOT_7 allocated.
+Sound sfx_yellum allocated.
+Sound sfx_raybng allocated.
+Sound sfx_raycv1 allocated.
+Sound sfx_raycv2 allocated.
+Sound sfx_raycv3 allocated.
+Sound sfx_raycv4 allocated.
+Sound sfx_raycv5 allocated.
+Sound sfx_raycv6 allocated.
+Sound sfx_raycv7 allocated.
+Sound sfx_jandie allocated.
+Sound sfx_janhrt allocated.
+Sound sfx_jansht allocated.
+Sound sfx_janjmp allocated.
+Sound sfx_jansee allocated.
+Sprite SPR_JANO allocated.
+Sprite SPR_YLUM allocated.
+Sprite SPR_JNFR allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/CreepyCrypt/LUA_SCOREHAUL
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/CreepyCrypt/LUA_LUMS
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/CreepyCrypt/LUA_CREEPYCRYPT
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|Lua/CrashCoarse/LUA_SKTB
+Sprite SPR_SKTB allocated.
+MobjType MT_SKATEBOARD allocated.
+State S_SKATEBOARD allocated.
+State S_BOARDOVERLAY allocated.
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/MAINCFG.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/SOC_LVLHEADERS.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/SOC_VANILLA.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Auburn Heights/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Auburn Heights/SOC_AHT1.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Auburn Heights/SOC_AHT2.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Creepy Crypt/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Creepy Crypt/SOC_LUMS
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Creepy Crypt/SOC_RAYMAN
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/!SOC_Cutscene
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_Glass
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_Greens
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_OfficePeople
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_PAPERS
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_Scenery
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_StudioEquipment
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_SWAT
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_SWUT
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_Vase
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_VPlant
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Egg TV/SOC_Wood Flower
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/SOC_BOSSAPPEAR
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/SOC_FOLLEY
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/SOC_GORDO.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/SOC_POPPYBROSSR
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/SOC_ROLYPOLY.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/SOC_SIRKIBBLE
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Greens Hill/SOC_UFO
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/!SOC_HYDRANT
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/SOC_BELL
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/SOC_GLASS
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/SOC_SCOP
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/SOC_Spinner
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/SOC_SPRITES
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/SOC_Trash
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\OLDC_2022Round2_SP-v1.1.pk3|SOC/Speed Highway/SOC_VASE
+OLDC_2022Round2_SP-v1.1.pk3 added 1338 frames in 76 sprites
+MAP99
+MAPS0
+MAPS1
+MAPS2
+MAPS3
+MAPS4
+MAPS5
+MAPS6
+MAPS7
+MAPS8
+MAPS9
+MAPSA
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+WARNING: "P_TeleportMove" is deprecated and will be removed.
+Use "P_SetOrigin" or "P_MoveOrigin" instead.
+Preparing Axis2D cache...
+Starting Server....
+Speeding off to level...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Speeding off to level...
+Preparing Axis2D cache...
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9004 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9001 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9002 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9003 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+ERROR: Axis 9005 does not exist! Please create it!
+Speeding off to level...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Preparing Axis2D cache...
+Speeding off to level...
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+Preparing Axis2D cache...
+\\\\\\\\\\\\\\\\\\\"Emblem Radar" unlocked!\
+WARNING: constant 'MDOR' could not be parsed.
+
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+WARNING: Deprecated bouncy FOF sector type detected. Please use linedef type 76 instead.
+Speeding off to level...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Preparing Axis2D cache...
+Speeding off to level...
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+Preparing Axis2D cache...
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+WARNING: constant 'PSN5' could not be parsed.
+
+Speeding off to level...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Preparing Axis2D cache...
+Speeding off to level...
+Preparing Axis2D cache...
+Speeding off to level...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Preparing Axis2D cache...
+Speeding off to level...
+Preparing Axis2D cache...
+Speeding off to level...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Preparing Axis2D cache...
+Speeding off to level...
+Preparing Axis2D cache...
+Speeding off to level...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Preparing Axis2D cache...
+WARNING: Deprecated emerald check sector type detected. Please use linedef types 337-339 instead.
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.13
+Speeding off to level...
+Preparing Axis2D cache...
+Speeding off to level...
+Preparing Axis2D cache...
+Speeding off to level...
+WARNING: Deprecated NiGHTS mare sector type detected. Please use linedef types 340-342 instead.
+Preparing Axis2D cache...
+WARNING: Deprecated NiGHTS mare sector type detected. Please use linedef types 340-342 instead.
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

@@ -1,0 +1,154 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\player.dta (1869 lumps)
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\player.dta|SOC_PLAY
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\patch.pk3 (18 lumps)
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Unknown command 'oldc_whopicks'
+Unknown command 'oldc_votetime'
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2024-05-26_13-11-12.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Sep  9 2023 01:19:03 a4a3b5b0 master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to play Record Attack.
+Added file C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3 (317 lumps)
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_Defs.LUA
+Pardon me while I initialize the Lua scripting interface...
+Sound sfx_wngfl allocated.
+Sound sfx_wngapr allocated.
+Sound sfx_hsdash allocated.
+Sound sfx_hsslas allocated.
+Sound sfx_skew allocated.
+Sprite SPR2_MFAL allocated.
+State S_PLAY_MIDFALL allocated.
+Sprite SPR2_FLTE allocated.
+State S_PLAY_FLOATEND allocated.
+Sprite SPR2_FLTS allocated.
+State S_PLAY_FLOATSTART allocated.
+Sprite SPR2_GARD allocated.
+State S_PLAY_APGUARD allocated.
+Sprite SPR2_HWLP allocated.
+Sprite SPR2_HOWL allocated.
+State S_PLAY_HOWLING_PREP1 allocated.
+State S_PLAY_HOWLING_PREP2 allocated.
+State S_PLAY_HOWLING allocated.
+State S_PLAY_HANDSONIC allocated.
+Sprite SPR2_BLSH allocated.
+Sprite SPR2_KHUG allocated.
+State S_KANADE_B allocated.
+State S_KANADE_H allocated.
+MobjType MT_KANADEWING allocated.
+State S_KANADEWING allocated.
+Sprite SPR_KWNG allocated.
+MobjType MT_KANADEUPDRAFT allocated.
+Sprite SPR_UDRT allocated.
+MobjType MT_HS_HITBOX allocated.
+Sprite SPR_HSSL allocated.
+State S_HANDSONIC_SLASH1 allocated.
+State S_HANDSONIC_SLASH2 allocated.
+State S_HANDSONIC_SLASH3 allocated.
+State S_HANDSONIC_STAB allocated.
+Sprite SPR_HSST allocated.
+Sprite SPR_WSRK allocated.
+State S_WINGSPARK1 allocated.
+State S_WINGSPARK2 allocated.
+State S_WINGSPARK3 allocated.
+State S_WINGSPARK4 allocated.
+State S_WINGSPARK5 allocated.
+Sound sfx_howl1 allocated.
+Sound sfx_howl2 allocated.
+MobjType MT_HOWLING allocated.
+Sprite SPR_HOWL allocated.
+State S_KHOWL1 allocated.
+State S_KHOWL2 allocated.
+State S_KHOWL3 allocated.
+MobjType MT_AP_PAINMOBJ allocated.
+State S_AP_PAINMOBJ allocated.
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_AngelWings.LUA
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_badnikCut.LUA
+Sprite SPR_SLCB allocated.
+Sprite SPR_SLC2 allocated.
+Sprite SPR_SLC3 allocated.
+MobjType MT_SLICEDPART allocated.
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_HandSonic.LUA
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_Extras.LUA
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_Overdrive.LUA
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_BattleMod.LUA
+Loading Lua script from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|Lua/AP_Main.LUA
+--------------------------------------------------
+
+Kanade Tachibana - v1.1 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading SOC from C:\Users\blue universe\Desktop\srb2\SRB2 v2.2\addons\mods\characters\cl_Kanade-v1.1.pk3|SOC/SOC_PLAY
+cl_Kanade-v1.1.pk3 added 72 frames in 9 sprites
+Added skin 'kanade'
+No maps added
+Starting Server....
+Speeding off to level...
+NOTICE: Game must be restarted to save progress.
+Speeding off to level...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

@@ -1,0 +1,864 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\player.dta (1869 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\player.dta|SOC_PLAY
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\patch.pk3 (18 lumps)
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3 (1113 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS1.lua
+Pardon me while I initialize the Lua scripting interface...
+MobjType MT_HALLOWEEN_BOSS1 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS2.lua
+MobjType MT_HALLOWEEN_BOSS2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS3.lua
+MobjType MT_KINGBOO_CHASE allocated.
+MobjType MT_CACOFIRE_SLOW allocated.
+Sound sfx_kboo1 allocated.
+Sound sfx_kboo2 allocated.
+Sound sfx_kboo3 allocated.
+Sound sfx_kboo4 allocated.
+Sound sfx_kboo5 allocated.
+Sound sfx_kboo6 allocated.
+Sound sfx_kboo7 allocated.
+Sound sfx_kboo8 allocated.
+Sound sfx_kboo9 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS4.lua
+MobjType MT_HALLOWEEN_BOSS3 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS5.lua
+MobjType MT_HALLOWEEN_BOSS4 allocated.
+MobjType MT_HALLOWEEN_BOSS4_SUM allocated.
+MobjType MT_HALLOWEEN_BOSS4_DARK allocated.
+MobjType MT_GHOSTDANCE_FUNI allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_THELINES.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_HITEMS.lua
+MobjType MT_SPIRIT_EFFECT allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/replaceables.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/mobj ringspill.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/borkring.lua
+MobjType MT_BROKENRING_ICON allocated.
+MobjType MT_BROKENRING_BOX allocated.
+MobjType MT_BROKENRING_GOLDBOX allocated.
+Sprite SPR_TVBR allocated.
+State S_BROKENRING_BOX allocated.
+State S_BROKENRING_GOLDBOX allocated.
+State S_BROKENRING_ICON1 allocated.
+State S_BROKENRING_ICON2 allocated.
+Sprite SPR_MSBR allocated.
+Sprite SPR_XLBR allocated.
+State S_BROKENRING_GOLDBOX_FLICKER allocated.
+State S_BROKENRING_BOX_FLICKER allocated.
+State S_BROKENRING_BOX_POP1 allocated.
+State S_BROKENRING_BOX_POP2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/rockshield.lua
+MobjType MT_ROCKSHIELD_ICON allocated.
+MobjType MT_ROCKSHIELD_BOX allocated.
+MobjType MT_ROCKSHIELD_GOLDBOX allocated.
+State S_ROCKSHIELD_BOX allocated.
+State S_ROCKSHIELD_GOLDBOX allocated.
+State S_ROCKSHIELD_ICON1 allocated.
+State S_ROCKSHIELD_ICON2 allocated.
+Sprite SPR_TVRS allocated.
+MobjType MT_RSROCK allocated.
+MobjType MT_RSSHRAPNEL allocated.
+MobjType MT_AHEADOFPLAYER allocated.
+State S_RSROCK1 allocated.
+State S_RSROCK2 allocated.
+State S_RSSHRHAPNEL1 allocated.
+State S_RSSHRHAPNEL2 allocated.
+State S_RSSHRHAPNEL3 allocated.
+Sprite SPR_RSRO allocated.
+Sprite SPR_RSSH allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/winterbeach.lua
+Sprite SPR_RADI allocated.
+Sprite SPR_RAD2 allocated.
+State S_RADIOSON allocated.
+MobjType MT_RADIO allocated.
+Sprite SPR_WBHO allocated.
+State S_HOLOGRAMSNOW allocated.
+State S_HOLOGRAMSUMMER allocated.
+MobjType MT_WBHOLOGRAM allocated.
+MobjType MT_WBWING allocated.
+State S_WBWING allocated.
+State S_WBWINGNO allocated.
+State S_SEASON_BOX allocated.
+State S_SEASON_GOLDBOX allocated.
+State S_SEASON_ICON1 allocated.
+State S_SEASON_ICON2 allocated.
+MobjType MT_SEASON_ICON allocated.
+MobjType MT_SEASON_BOX allocated.
+MobjType MT_SEASON_GOLDBOX allocated.
+Sprite SPR_TVWM allocated.
+Sprite SPR_WBSC allocated.
+MobjType MT_WBSECRET allocated.
+State S_SECRETWB allocated.
+Sprite SPR_WBS2 allocated.
+MobjType MT_WBSECRET2 allocated.
+State S_SECRETWB2 allocated.
+MobjType MT_NOCRAWLA allocated.
+Sprite SPR_WBSG allocated.
+State S_NO_CRAWLA_SIGN allocated.
+MobjType MT_ICESPRING allocated.
+Sprite SPR_ISRG allocated.
+State S_ICESPRING allocated.
+State S_ICESPRING2 allocated.
+State S_ICESPRING3 allocated.
+State S_ICESPRING4 allocated.
+State S_ICESPRING5 allocated.
+State S_ICESPRING6 allocated.
+State S_ICESPRING7 allocated.
+State S_ICESPRING8 allocated.
+Sound sfx_smwins allocated.
+MobjType MT_ICESHRAPNEL allocated.
+State S_ICESHRAP allocated.
+State S_ICESHRAP2 allocated.
+State S_ICESHRAP3 allocated.
+State S_ICESHRAP4 allocated.
+Sprite SPR_ISHR allocated.
+Sprite SPR_WBT1 allocated.
+State S_XMASGFZTREE allocated.
+Sprite SPR_WBPK allocated.
+State S_XMASPINETREE allocated.
+Sound sfx_sttb3 allocated.
+Sound sfx_sttc7 allocated.
+WARNING: ...ia\extramaps.pk3|Lua/ShiftingSeasons/winterbeach.lua:766: mobjtype 'MT_AWATERA' does not exist.
+
+stack traceback:
+    [C]: ?
+    ...ia\extramaps.pk3|Lua/ShiftingSeasons/winterbeach.lua:766: in main chunk
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/autumnspring.lua
+Sprite SPR_WBLE allocated.
+State S_LEAF allocated.
+MobjType MT_FLOATINGLEAVES allocated.
+MobjType MT_LEAFSPAWNER allocated.
+MobjType MT_WBHOLOGRAM2 allocated.
+State S_HOLOGRAMSPRING allocated.
+State S_HOLOGRAMAUTUMN allocated.
+Sprite SPR_WBH2 allocated.
+State S_AUTUMNGFZTREE allocated.
+State S_AUTUMNPINETREE allocated.
+State S_AUTUMNBLUEBERRYBUSH allocated.
+State S_AUTUMNBERRYBUSH allocated.
+State S_AUTUMNBUSH allocated.
+Sound sfx_sttb3 allocated.
+Sprite SPR_ASLP allocated.
+State S_LEAFPILE allocated.
+MobjType MT_LEAFPILE allocated.
+MobjType MT_LEAFDEBRIS allocated.
+Sound sfx_aslf allocated.
+MobjType MT_AUTUMNSPRING allocated.
+State S_AUTUMNSPRING allocated.
+State S_AUTUMNSPRING2 allocated.
+State S_AUTUMNSPRING3 allocated.
+State S_AUTUMNSPRING4 allocated.
+State S_AUTUMNSPRING5 allocated.
+State S_AUTUMNSPRING6 allocated.
+State S_AUTUMNSPRING7 allocated.
+State S_AUTUMNSPRING8 allocated.
+Sprite SPR_ASRG allocated.
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SOC_FIRE
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SOC_ENEMIES
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SOC_LEVELS
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/TurbineFalls/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/TurbineFalls/SOC_IFPA
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/VolcanicPlanet/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/VolcanicPlanet/SOC_TRAMPOLINES
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/AzureParadise/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/AzureParadise/OBJCTCFG
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/NeoPalmtree/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/NeoPalmtree/SOC_NPZ1
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SacredAbyss/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SacredAbyss/SOC_SACR
+WARNING: Line 328: Unknown action NONH
+1 warning in the SOC lump
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SeraphicSkylands/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SeraphicSkylands/SOC_SERA
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/ExtraMaps/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/ExtraMaps/SOC_XLEVALL
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3 (2363 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Amy/
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Amy/Amy_Style.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Amy/Amy_Mania.lua
+State S_PLAY_AMYFLIP1 allocated.
+State S_PLAY_AMYFLIP2 allocated.
+State S_PLAY_AMYFLIP3 allocated.
+State S_PLAY_AMYFLIP4 allocated.
+State S_PLAY_AMYFLIP5 allocated.
+State S_PLAY_AMYFLIP6 allocated.
+State S_PLAY_AMYFLIP7 allocated.
+State S_PLAY_HELIHAMMER1 allocated.
+State S_PLAY_HELIHAMMER2 allocated.
+State S_PLAY_HELIHAMMER3 allocated.
+State S_PLAY_HELIHAMMER4 allocated.
+State S_PLAY_HELIHAMMER5 allocated.
+State S_PLAY_HELIHAMMER6 allocated.
+State S_PLAY_HELIHAMMER7 allocated.
+State S_PLAY_HELIHAMMER8 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Amy/Amy_SA1_AirWalk.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Amy/Amy_SA1_HammerJump.lua
+Sprite SPR_PKRG allocated.
+MobjType MT_PIKO_RING allocated.
+State S_PIKO_RING allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Amy/Amy_SA1_TwinSpin.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_Defs.LUA
+Sound sfx_wngfl allocated.
+Sound sfx_wngapr allocated.
+Sound sfx_hsdash allocated.
+Sound sfx_hsslas allocated.
+Sound sfx_skew allocated.
+Sprite SPR2_MFAL allocated.
+State S_PLAY_MIDFALL allocated.
+Sprite SPR2_FLTE allocated.
+State S_PLAY_FLOATEND allocated.
+Sprite SPR2_FLTS allocated.
+State S_PLAY_FLOATSTART allocated.
+Sprite SPR2_GARD allocated.
+State S_PLAY_APGUARD allocated.
+Sprite SPR2_HWLP allocated.
+Sprite SPR2_HOWL allocated.
+State S_PLAY_HOWLING_PREP1 allocated.
+State S_PLAY_HOWLING_PREP2 allocated.
+State S_PLAY_HOWLING allocated.
+State S_PLAY_HANDSONIC allocated.
+Sprite SPR2_BLSH allocated.
+Sprite SPR2_KHUG allocated.
+State S_KANADE_B allocated.
+State S_KANADE_H allocated.
+MobjType MT_KANADEWING allocated.
+State S_KANADEWING allocated.
+Sprite SPR_KWNG allocated.
+MobjType MT_KANADEUPDRAFT allocated.
+Sprite SPR_UDRT allocated.
+MobjType MT_HS_HITBOX allocated.
+Sprite SPR_HSSL allocated.
+State S_HANDSONIC_SLASH1 allocated.
+State S_HANDSONIC_SLASH2 allocated.
+State S_HANDSONIC_SLASH3 allocated.
+State S_HANDSONIC_STAB allocated.
+Sprite SPR_HSST allocated.
+Sprite SPR_WSRK allocated.
+State S_WINGSPARK1 allocated.
+State S_WINGSPARK2 allocated.
+State S_WINGSPARK3 allocated.
+State S_WINGSPARK4 allocated.
+State S_WINGSPARK5 allocated.
+Sound sfx_howl1 allocated.
+Sound sfx_howl2 allocated.
+MobjType MT_HOWLING allocated.
+Sprite SPR_HOWL allocated.
+State S_KHOWL1 allocated.
+State S_KHOWL2 allocated.
+State S_KHOWL3 allocated.
+MobjType MT_AP_PAINMOBJ allocated.
+State S_AP_PAINMOBJ allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_AngelWings.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_badnikCut.LUA
+Sprite SPR_SLCB allocated.
+Sprite SPR_SLC2 allocated.
+Sprite SPR_SLC3 allocated.
+MobjType MT_SLICEDPART allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_HandSonic.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_Extras.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_Overdrive.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_BattleMod.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Kanade/AP_Main.LUA
+--------------------------------------------------
+
+Kanade Tachibana - v1.1 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Defs.LUA
+Sound sfx_thrw1 allocated.
+Sound sfx_thrw2 allocated.
+Sound sfx_thrw3 allocated.
+Sound sfx_thrw4 allocated.
+Sound sfx_skill1 allocated.
+Sound sfx_skill2 allocated.
+Sound sfx_skill3 allocated.
+Sound sfx_skills allocated.
+Sound sfx_silrip allocated.
+Sound sfx_float allocated.
+Sound sfx_cancel allocated.
+Sound sfx_levi allocated.
+Sound sfx_psybst allocated.
+Sprite SPR_SFLI allocated.
+State S_SILV_WARNINGINDICATOR allocated.
+State S_SILV_TIREDINDICATOR allocated.
+Sprite SPR_SLCK allocated.
+State S_LOCKON_SILV allocated.
+Sprite SPR_FRAG allocated.
+State S_FRAG1 allocated.
+State S_FRAG2 allocated.
+State S_FRAG3 allocated.
+State S_FRAG4 allocated.
+State S_FRAG5 allocated.
+Sprite SPR_SHWL allocated.
+State S_HOWL1 allocated.
+State S_HOWL2 allocated.
+State S_HOWL3 allocated.
+Sprite SPR_RGRB allocated.
+Sprite SPR_KLIT allocated.
+MobjType MT_PSYHITBOX allocated.
+State S_SILVTHROW allocated.
+MobjType MT_EGGROBO_SPAWNHELPER allocated.
+State S_EGGROBO_SPAWNHELPER allocated.
+MobjType MT_SILVERTRAIL allocated.
+Sprite SPR_STHK allocated.
+State S_SILVERTRAIL1 allocated.
+State S_SILVERTRAIL2 allocated.
+MobjType MT_SILV_IDLEHOLD allocated.
+State S_SILV_IDLEHOLD allocated.
+State S_PLAY_SILVGUARD allocated.
+State S_LASER_FLAGSET allocated.
+MobjType MT_PSYCHOCUT allocated.
+Sprite SPR_PSCT allocated.
+Sound sfx_pscut allocated.
+State S_PSYCUT allocated.
+State S_PSYCUT2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Cmd.Lua
+Added command "silv_auracolor"
+Added command "silv_invertflight"
+Added command "silv_throwall"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Main.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Carry.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_TK_extra.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Telekinesis.lua
+Sound sfx_ovrchr allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Shield.lua
+Sprite SPR_KLIT allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Cut.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Bot.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_BattleMod.Lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Silver/Silver_Captions.lua
+--------------------------------------------------
+
+Silver the Hedgehog - v2.12 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/P_TeleportMove.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/EV_MarioBlock.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/P_ButteredSlope.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/P_DoRandomBoxChances.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/PopParticle.lua
+State S_MARIO_DUST allocated.
+MobjType MT_MARIO_DUST allocated.
+State S_MARIO_HITFX allocated.
+Sprite SPR_PUPA allocated.
+MobjType MT_POPPARTICLEMAR allocated.
+State S_POPPARTICLEMAR allocated.
+Sprite SPR_BEEM allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/colors.lua
+Skincolor SKINCOLOR_TOADSTOOL allocated.
+Skincolor SKINCOLOR_BLUEFLOWER allocated.
+Skincolor SKINCOLOR_MUSHROOM allocated.
+Skincolor SKINCOLOR_SHELL allocated.
+Skincolor SKINCOLOR_UNDERGROUND allocated.
+Skincolor SKINCOLOR_MONDO allocated.
+Skincolor SKINCOLOR_TUBULAR allocated.
+Skincolor SKINCOLOR_GROOVY allocated.
+Skincolor SKINCOLOR_FUNKY allocated.
+Skincolor SKINCOLOR_LETHAL allocated.
+Skincolor SKINCOLOR_DIRE allocated.
+Skincolor SKINCOLOR_COURTYARD allocated.
+Skincolor SKINCOLOR_MOSSBUTDARK allocated.
+Skincolor SKINCOLOR_RAINBOW allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/command.lua
+Coins will no longer be replaced with rings for anyone other than Mario in single player.
+Added command "mariosecondcolor"
+Added command "mariosecondcolor2"
+Added command "marioattackbutton"
+Added command "marioattackbutton2"
+Added command "mariocrouchbutton"
+Added command "mariocrouchbutton2"
+Added command "marioabilitybutton"
+Added command "marioabilitybutton2"
+Added command "mariospinbutton"
+Added command "mariospinbutton2"
+Added command "mariodive"
+Added command "mariodive2"
+Added command "marioforcehammer"
+Added command "marioforcehammer2"
+Added command "mariospin"
+Added command "mariospin2"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/io.lua
+Added command "marioio"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/menu.lua
+Sound sfx_mrselc allocated.
+Sound sfx_mrup allocated.
+Sound sfx_mrdown allocated.
+Sound sfx_mrenab allocated.
+Sound sfx_mrdisa allocated.
+Added command "mariomenu"
+Added command "mariomenu2"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/sounds.lua
+Sound sfx_mrbrck allocated.
+Sound sfx_mrchek allocated.
+Sound sfx_mrtoke allocated.
+Sound sfx_mremer allocated.
+Sound sfx_mrcnap allocated.
+Sound sfx_mrjmp2 allocated.
+Sound sfx_mrjmp3 allocated.
+Sound sfx_mrwljm allocated.
+Sound sfx_mrlong allocated.
+Sound sfx_mrgnd1 allocated.
+Sound sfx_mrgnd2 allocated.
+Sound sfx_mrduck allocated.
+Sound sfx_mrcwl1 allocated.
+Sound sfx_mrcwl2 allocated.
+Sound sfx_mrchrg allocated.
+Sound sfx_mrgpjm allocated.
+Sound sfx_mrsld1 allocated.
+Sound sfx_mrsld2 allocated.
+Sound sfx_mrswm1 allocated.
+Sound sfx_mrswm2 allocated.
+Sound sfx_mrspn1 allocated.
+Sound sfx_mrspn2 allocated.
+Sound sfx_mrspn3 allocated.
+Sound sfx_mrspn4 allocated.
+Sound sfx_mrflip allocated.
+Sound sfx_mrtrfl allocated.
+Sound sfx_mrrol2 allocated.
+Sound sfx_mrdive allocated.
+Sound sfx_mrlout allocated.
+Sound sfx_mrbonk allocated.
+Sound sfx_mrstmp allocated.
+Sound sfx_mrkill allocated.
+Sound sfx_mrexpl allocated.
+Sound sfx_mrpoof allocated.
+Sound sfx_mrhmr1 allocated.
+Sound sfx_mrhmr2 allocated.
+Sound sfx_mrhmr3 allocated.
+Sound sfx_mrhmr4 allocated.
+Sound sfx_mrhhit allocated.
+Sound sfx_mrheal allocated.
+Sound sfx_mrlowh allocated.
+Sound sfx_mrspun allocated.
+Sound sfx_mrestr allocated.
+Sound sfx_mrresv allocated.
+Sound sfx_mrstar allocated.
+Sound sfx_mrpbln allocated.
+Sound sfx_mrpbfl allocated.
+Sound sfx_mrpbds allocated.
+Sound sfx_mrpbmp allocated.
+Sound sfx_mrpbch allocated.
+Sound sfx_mrblow allocated.
+Sound sfx_mrmini allocated.
+Sound sfx_mrmin1 allocated.
+Sound sfx_mrmin2 allocated.
+Sound sfx_mrmin3 allocated.
+Sound sfx_mrmin4 allocated.
+Sound sfx_mrmin5 allocated.
+Sound sfx_mrmin6 allocated.
+Sound sfx_mrball allocated.
+Sound sfx_mrbal1 allocated.
+Sound sfx_mrbal2 allocated.
+Sound sfx_mrbal3 allocated.
+Sound sfx_mrbal4 allocated.
+Sound sfx_mrbal5 allocated.
+Sound sfx_mrbal6 allocated.
+Sound sfx_mrmega allocated.
+Sound sfx_mrmgap allocated.
+Sound sfx_mrmgls allocated.
+Sound sfx_mrmgjm allocated.
+Sound sfx_mrmgst allocated.
+Sound sfx_mrcape allocated.
+Sound sfx_mrfly allocated.
+Sound sfx_mrspin allocated.
+Sound sfx_mrmetl allocated.
+Sound sfx_mrmeht allocated.
+Sound sfx_mrstep allocated.
+Sound sfx_mrfire allocated.
+Sound sfx_mrglpw allocated.
+Sound sfx_mrgold allocated.
+Sound sfx_mrglfr allocated.
+Sound sfx_mrglxp allocated.
+Sound sfx_mriceb allocated.
+Sound sfx_mricbr allocated.
+Sound sfx_mrfrze allocated.
+Sound sfx_mrslip allocated.
+Sound sfx_mrshtr allocated.
+Sound sfx_mrbtgt allocated.
+Sound sfx_mrbtjm allocated.
+Sound sfx_mrbtls allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/voice.lua
+State S_MARIO_VOICEECHO allocated.
+Sound sfx_mrahah allocated.
+Sound sfx_m2ahah allocated.
+Sound sfx_m3ahah allocated.
+Sound sfx_mrahow allocated.
+Sound sfx_m2ahow allocated.
+Sound sfx_m3ahow allocated.
+Sound sfx_mrboig allocated.
+Sound sfx_m2boig allocated.
+Sound sfx_m3boig allocated.
+Sound sfx_mrdie1 allocated.
+Sound sfx_m2die1 allocated.
+Sound sfx_m3die1 allocated.
+Sound sfx_mrdie2 allocated.
+Sound sfx_m2die2 allocated.
+Sound sfx_m3die2 allocated.
+Sound sfx_mrdie3 allocated.
+Sound sfx_m2die3 allocated.
+Sound sfx_m3die3 allocated.
+Sound sfx_mrdoh allocated.
+Sound sfx_m2doh allocated.
+Sound sfx_m3doh allocated.
+Sound sfx_mrdrwn allocated.
+Sound sfx_m2drwn allocated.
+Sound sfx_m3drwn allocated.
+Sound sfx_mredg1 allocated.
+Sound sfx_m2edg1 allocated.
+Sound sfx_m3edg1 allocated.
+Sound sfx_mredg2 allocated.
+Sound sfx_m2edg2 allocated.
+Sound sfx_m3edg2 allocated.
+Sound sfx_mrfall allocated.
+Sound sfx_m2fall allocated.
+Sound sfx_m3fall allocated.
+Sound sfx_mrgrua allocated.
+Sound sfx_m2grua allocated.
+Sound sfx_m3grua allocated.
+Sound sfx_mrheho allocated.
+Sound sfx_m2heho allocated.
+Sound sfx_m3heho allocated.
+Sound sfx_mrhelo allocated.
+Sound sfx_m2helo allocated.
+Sound sfx_m3helo allocated.
+Sound sfx_mrhmm allocated.
+Sound sfx_m2hmm allocated.
+Sound sfx_m3hmm allocated.
+Sound sfx_mrho allocated.
+Sound sfx_m2ho allocated.
+Sound sfx_m3ho allocated.
+Sound sfx_mrhoho allocated.
+Sound sfx_m2hoho allocated.
+Sound sfx_m3hoho allocated.
+Sound sfx_mrhol allocated.
+Sound sfx_m2hol allocated.
+Sound sfx_m3hol allocated.
+Sound sfx_mrhot allocated.
+Sound sfx_m2hot allocated.
+Sound sfx_m3hot allocated.
+Sound sfx_mrhray allocated.
+Sound sfx_m2hray allocated.
+Sound sfx_m3hray allocated.
+Sound sfx_mrhuah allocated.
+Sound sfx_m2huah allocated.
+Sound sfx_m3huah allocated.
+Sound sfx_mritsa allocated.
+Sound sfx_m2itsa allocated.
+Sound sfx_m3itsa allocated.
+Sound sfx_mrlava allocated.
+Sound sfx_m2lava allocated.
+Sound sfx_m3lava allocated.
+Sound sfx_mrlets allocated.
+Sound sfx_m2lets allocated.
+Sound sfx_m3lets allocated.
+Sound sfx_mrmama allocated.
+Sound sfx_m2mama allocated.
+Sound sfx_m3mama allocated.
+Sound sfx_mrmuh allocated.
+Sound sfx_m2muh allocated.
+Sound sfx_m3muh allocated.
+Sound sfx_mrmuu allocated.
+Sound sfx_m2muu allocated.
+Sound sfx_m3muu allocated.
+Sound sfx_mroh allocated.
+Sound sfx_m2oh allocated.
+Sound sfx_m3oh allocated.
+Sound sfx_mrohho allocated.
+Sound sfx_m2ohho allocated.
+Sound sfx_m3ohho allocated.
+Sound sfx_mrokie allocated.
+Sound sfx_m2okie allocated.
+Sound sfx_m3okie allocated.
+Sound sfx_mroof allocated.
+Sound sfx_m2oof allocated.
+Sound sfx_m3oof allocated.
+Sound sfx_mrow allocated.
+Sound sfx_m2ow allocated.
+Sound sfx_m3ow allocated.
+Sound sfx_mrpull allocated.
+Sound sfx_m2pull allocated.
+Sound sfx_m3pull allocated.
+Sound sfx_mrscrm allocated.
+Sound sfx_m2scrm allocated.
+Sound sfx_m3scrm allocated.
+Sound sfx_mrshoo allocated.
+Sound sfx_m2shoo allocated.
+Sound sfx_m3shoo allocated.
+Sound sfx_mrstnk allocated.
+Sound sfx_m2stnk allocated.
+Sound sfx_m3stnk allocated.
+Sound sfx_mrtime allocated.
+Sound sfx_m2time allocated.
+Sound sfx_m3time allocated.
+Sound sfx_mruh allocated.
+Sound sfx_m2uh allocated.
+Sound sfx_m3uh allocated.
+Sound sfx_mruhn allocated.
+Sound sfx_m2uhn allocated.
+Sound sfx_m3uhn allocated.
+Sound sfx_mrwah allocated.
+Sound sfx_m2wah allocated.
+Sound sfx_m3wah allocated.
+Sound sfx_mrwaha allocated.
+Sound sfx_m2waha allocated.
+Sound sfx_m3waha allocated.
+Sound sfx_mrwaho allocated.
+Sound sfx_m2waho allocated.
+Sound sfx_m3waho allocated.
+Sound sfx_mrwalf allocated.
+Sound sfx_m2walf allocated.
+Sound sfx_m3walf allocated.
+Sound sfx_mrwawl allocated.
+Sound sfx_m2wawl allocated.
+Sound sfx_m3wawl allocated.
+Sound sfx_mrwehe allocated.
+Sound sfx_m2wehe allocated.
+Sound sfx_m3wehe allocated.
+Sound sfx_mrweho allocated.
+Sound sfx_m2weho allocated.
+Sound sfx_m3weho allocated.
+Sound sfx_mrwihe allocated.
+Sound sfx_m2wihe allocated.
+Sound sfx_m3wihe allocated.
+Sound sfx_mrwoah allocated.
+Sound sfx_m2woah allocated.
+Sound sfx_m3woah allocated.
+Sound sfx_mrwoch allocated.
+Sound sfx_m2woch allocated.
+Sound sfx_m3woch allocated.
+Sound sfx_mrwoho allocated.
+Sound sfx_m2woho allocated.
+Sound sfx_m3woho allocated.
+Sound sfx_mryah allocated.
+Sound sfx_m2yah allocated.
+Sound sfx_m3yah allocated.
+Sound sfx_mryaho allocated.
+Sound sfx_m2yaho allocated.
+Sound sfx_m3yaho allocated.
+Sound sfx_mryehe allocated.
+Sound sfx_m2yehe allocated.
+Sound sfx_m3yehe allocated.
+Sound sfx_mryeho allocated.
+Sound sfx_m2yeho allocated.
+Sound sfx_m3yeho allocated.
+Sound sfx_mryhaw allocated.
+Sound sfx_m2yhaw allocated.
+Sound sfx_m3yhaw allocated.
+Sound sfx_mryipe allocated.
+Sound sfx_m2yipe allocated.
+Sound sfx_m3yipe allocated.
+Sound sfx_mryou allocated.
+Sound sfx_m2you allocated.
+Sound sfx_m3you allocated.
+Sound sfx_mryul allocated.
+Sound sfx_m2yul allocated.
+Sound sfx_m3yul allocated.
+Sound sfx_mrsupr allocated.
+Sound sfx_m2supr allocated.
+Sound sfx_m3supr allocated.
+Sound sfx_mrohya allocated.
+Sound sfx_m2ohya allocated.
+Sound sfx_m3ohya allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/secondcolor.lua
+MobjType MT_MARIO_OVERALLS allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/cape.lua
+State S_MARIO_CAPESPIN allocated.
+Sprite SPR_MRCP allocated.
+MobjType MT_MARIO_CAPE allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/health.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/shoe.lua
+State S_MARIO_GHOST1 allocated.
+Sprite SPR_MRGH allocated.
+State S_MARIO_GHOST2 allocated.
+MobjType MT_MARIO_GHOST allocated.
+State S_MARIO_SHOE allocated.
+Sprite SPR_MRBT allocated.
+MobjType MT_MARIO_SHOE allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/powerup.lua
+Sprite SPR_MPWR allocated.
+State S_MARIO_ICEFLOWER allocated.
+State S_MARIO_GOLDFLOWER allocated.
+State S_MARIO_BALLFLOWER allocated.
+State S_MARIO_POWERUP allocated.
+Sprite SPR_UPPB allocated.
+State S_MARIO_1UP_ICON allocated.
+MobjType MT_MARIO_POWERUP allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/monitor.lua
+Sprite SPR_MMON allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/ability.lua
+State S_MARIO_FIREEXPLODE allocated.
+Sprite SPR_MRPT allocated.
+State S_MARIO_SUPERBALL allocated.
+MobjType MT_MARIO_FIREBALL allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/enemy.lua
+State S_MARIO_ICEBLOCK allocated.
+Sprite SPR_MRIB allocated.
+MobjType MT_MARIO_ICEBLOCK allocated.
+State S_MARIO_ENEMY allocated.
+State S_MARIO_DEADENEMY allocated.
+MobjType MT_MARIO_ENEMY allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/mario.lua
+State S_MARIO_JUMP1 allocated.
+State S_MARIO_JUMP2 allocated.
+State S_MARIO_FALL allocated.
+State S_MARIO_DOUBLE allocated.
+State S_MARIO_DOUBLEFALL allocated.
+State S_MARIO_TRIPLE allocated.
+State S_MARIO_SPIN allocated.
+State S_MARIO_RECOVER allocated.
+State S_MARIO_LONGJUMP allocated.
+State S_MARIO_LONGTRANS allocated.
+State S_MARIO_LONGFALL allocated.
+State S_MARIO_BONK allocated.
+State S_MARIO_GROUNDPOUND allocated.
+State S_MARIO_POUNDSTART allocated.
+State S_MARIO_ROLL allocated.
+State S_MARIO_ROLL2 allocated.
+State S_MARIO_BACKFLIP allocated.
+State S_MARIO_SCUTTLE allocated.
+State S_MARIO_SIDEFLIP allocated.
+State S_MARIO_PULLUP allocated.
+State S_MARIO_PULLUP2 allocated.
+State S_MARIO_CAPEFLY allocated.
+State S_MARIO_BALLOON allocated.
+State S_MARIO_LAVA allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/bot.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/bonus.lua
+State S_MARIO_NIGHTS1 allocated.
+State S_MARIO_NIGHTS2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/stinky.lua
+State S_MARIO_STINKY1 allocated.
+State S_MARIO_STINKY2 allocated.
+Added command "mariofactor"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/emeralds.lua
+Sprite SPR_CST1 allocated.
+Sprite SPR_CST2 allocated.
+Sprite SPR_CST3 allocated.
+Sprite SPR_CST4 allocated.
+Sprite SPR_CST5 allocated.
+Sprite SPR_CST6 allocated.
+Sprite SPR_CST7 allocated.
+State S_CSTR1 allocated.
+State S_CSTR2 allocated.
+State S_CSTR3 allocated.
+State S_CSTR4 allocated.
+State S_CSTR5 allocated.
+State S_CSTR6 allocated.
+State S_CSTR7 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/emeraldorbit.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/persona.lua
+State S_MARIO_HIT1 allocated.
+State S_MARIO_HIT2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|Lua/Mario/compat.lua
+MobjType MT_COINAWARD allocated.
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Amy/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Amy/SOC_AMY
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Kanade/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Kanade/SOC_KANADE
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Silver/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Silver/SOC_SILVER
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Mario/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Mario/SOC_WAHO
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Mario/SOC_PICKUPS
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extrachars.pk3|SOC/Mario/SOC_STARS
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Levels will end after 10 minutes.
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+extramaps.pk3 added 537 frames in 60 sprites
+extrachars.pk3 added 502 frames in 39 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2026-10-31_00-24-39.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Oct 31 2026 00:23:59 a4a3b5b0 HEAD) SDL Windows 32-bit 
+Starting Server....
+Speeding off to level...
+Speeding off to level...
+Speeding off to level...
+Starting Server....
+Connecting to: go drink
+Gametype: Co-op
+Version: 2.2.13
+Speeding off to level...
+Speeding off to level...
+Starting Server....
+Connecting to: go drink
+Gametype: Co-op
+Version: 2.2.13
+Speeding off to level...
+Starting Server....
+Connecting to: go drink
+Gametype: Co-op
+Version: 2.2.13
+Speeding off to level...
+Starting Server....
+Connecting to: go drink
+Gametype: Co-op
+Version: 2.2.13
+Speeding off to level...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

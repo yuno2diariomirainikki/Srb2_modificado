@@ -1,0 +1,750 @@
+-------------------
+
+Error occurred on Thursday, November 7, 2024 at 12:38:42.
+
+srb2win.exe caused an Access Violation at location 005C2E86 in module srb2win.exe Reading from location 1A4675DB.
+
+Registers:
+eax=fe2f97ef ebx=005c2e70 ecx=ffffffff edx=000002e0 esi=08c27cac edi=1a4675db
+eip=005c2e86 esp=054afc00 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+005C2E86 00000000 00000000 00000000  srb2win.exe!R_DrawMaskedColumn
+
+srb2win.exe 	2.2.13.0
+ntdll.dll   	6.3.26100.2033
+KERNEL32.DLL	6.3.26100.1882
+KERNELBASE.dll	6.3.26100.2033
+ADVAPI32.dll	6.3.26100.2033
+msvcrt.dll  	7.0.26100.1882
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.26100.1882
+libgme.dll
+CRYPT32.dll 	6.3.26100.1882
+libopenmpt.dll	1.0.0.0
+RPCRT4.dll  	6.3.26100.268
+USER32.dll  	6.3.26100.2033
+ucrtbase.dll	6.3.26100.1882
+win32u.dll  	6.3.26100.1882
+SHELL32.dll 	6.3.26100.1882
+wldap32.dll 	6.3.26100.1882
+SDL2.dll    	2.0.20.0
+GDI32.dll   	6.3.26100.2033
+msvcp_win.dll	6.3.26100.1882
+WS2_32.dll  	6.3.26100.1882
+IMM32.DLL   	6.3.26100.1
+gdi32full.dll	6.3.26100.2033
+ole32.dll   	6.3.26100.1882
+SDL2_mixer_ext.dll	2.1.0.0
+combase.dll 	6.3.26100.2033
+OLEAUT32.dll	6.3.26100.1882
+SETUPAPI.dll	6.3.26100.1882
+libgcc_s_sjlj-1.dll
+libstdc++-6.dll
+WINMM.DLL   	6.3.26100.1882
+VERSION.dll 	6.3.26100.1
+CRYPTBASE.DLL	6.3.26100.1
+cfgmgr32.DLL	6.3.26100.1882
+libfluidsynth-2.dll
+DSOUND.dll  	6.3.26100.1882
+ResampleDmo.DLL	6.3.26100.1
+powrprof.dll	6.3.26100.1
+winmmbase.dll	6.3.26100.1
+msdmo.dll   	6.3.26100.1
+UMPDC.dll   	6.3.26100.1301
+uxtheme.dll 	6.3.26100.1882
+MSCTF.dll   	6.3.26100.2033
+shcore.dll  	6.3.26100.1882
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.26100.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.26100.2033
+dbgcore.DLL 	6.3.26100.1882
+bcryptPrimitives.dll	6.3.26100.2033
+Windows.Storage.dll	6.3.26100.2033
+mscms.dll   	6.3.26100.1882
+icm32.dll   	6.3.26100.1882
+kernel.appcore.dll	6.3.26100.1591
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.26100.1882
+Oleacc.dll  	7.2.26100.1882
+CoreMessaging.dll	6.3.26100.1
+CoreUIComponents.dll	6.3.26100.1882
+wintypes.dll	6.3.26100.1882
+D3D9.DLL    	6.3.26100.1882
+dwmapi.dll  	6.3.26100.1882
+dxcore.dll  	6.3.26100.1882
+igdumdim32.dll	31.0.101.2127
+igd9dxva32.dll	31.0.101.2127
+igdgmm32.dll	31.0.101.2127
+directxdatabasehelper.dll	6.3.26100.1882
+igdinfo32.dll
+igc32.dll   	31.0.101.2127
+hid.dll     	6.3.26100.1
+DEVOBJ.dll  	6.3.26100.1
+WINTRUST.dll	6.3.26100.1882
+MSASN1.dll  	6.3.26100.1
+dinput8.dll 	6.3.26100.1591
+inputhost.dll	6.3.26100.1882
+Windows.Gaming.Input.dll	6.3.26100.1882
+bcrypt.dll  	6.3.26100.1882
+twinapi.appcore.dll	6.3.26100.1882
+OneCoreUAPCommonProxyStub.dll	6.3.26100.1882
+MMDevAPI.DLL	6.3.26100.1882
+wdmaud.drv  	6.3.26100.1882
+AUDIOSES.DLL	6.3.26100.1882
+msacm32.drv 	6.3.26100.1882
+MSACM32.dll 	6.3.26100.1882
+midimap.dll 	6.3.26100.1882
+resourcepolicyclient.dll	6.3.26100.1
+Windows.UI.dll	6.3.26100.1882
+avrt.dll    	6.3.26100.1
+shlwapi.dll 	6.3.26100.1882
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, November 7, 2024 at 17:21:36.
+
+srb2win.exe caused an Access Violation at location 005C2E86 in module srb2win.exe Reading from location 1A3FB023.
+
+Registers:
+eax=fdc218d9 ebx=005c2e70 ecx=ffffffff edx=000002e0 esi=08bfdeac edi=1a3fb023
+eip=005c2e86 esp=054afc00 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+005C2E86 00000000 00000000 00000000  srb2win.exe!R_DrawMaskedColumn
+
+srb2win.exe 	2.2.13.0
+ntdll.dll   	6.3.26100.2033
+KERNEL32.DLL	6.3.26100.1882
+KERNELBASE.dll	6.3.26100.2033
+ADVAPI32.dll	6.3.26100.2033
+msvcrt.dll  	7.0.26100.1882
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.26100.1882
+libgme.dll
+libopenmpt.dll	1.0.0.0
+CRYPT32.dll 	6.3.26100.1882
+USER32.dll  	6.3.26100.2033
+RPCRT4.dll  	6.3.26100.268
+ucrtbase.dll	6.3.26100.1882
+win32u.dll  	6.3.26100.1882
+SHELL32.dll 	6.3.26100.1882
+wldap32.dll 	6.3.26100.1882
+SDL2.dll    	2.0.20.0
+msvcp_win.dll	6.3.26100.1882
+GDI32.dll   	6.3.26100.2033
+WS2_32.dll  	6.3.26100.1882
+IMM32.DLL   	6.3.26100.1
+gdi32full.dll	6.3.26100.2033
+ole32.dll   	6.3.26100.1882
+SDL2_mixer_ext.dll	2.1.0.0
+combase.dll 	6.3.26100.2033
+OLEAUT32.dll	6.3.26100.1882
+SETUPAPI.dll	6.3.26100.1882
+libgcc_s_sjlj-1.dll
+WINMM.DLL   	6.3.26100.1882
+libstdc++-6.dll
+CRYPTBASE.DLL	6.3.26100.1
+VERSION.dll 	6.3.26100.1
+libfluidsynth-2.dll
+cfgmgr32.DLL	6.3.26100.1882
+DSOUND.dll  	6.3.26100.1882
+powrprof.dll	6.3.26100.1
+ResampleDmo.DLL	6.3.26100.1
+winmmbase.dll	6.3.26100.1
+msdmo.dll   	6.3.26100.1
+UMPDC.dll   	6.3.26100.1301
+uxtheme.dll 	6.3.26100.1882
+MSCTF.dll   	6.3.26100.2033
+shcore.dll  	6.3.26100.1882
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.26100.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.26100.2033
+dbgcore.DLL 	6.3.26100.1882
+bcryptPrimitives.dll	6.3.26100.2033
+Windows.Storage.dll	6.3.26100.2033
+mscms.dll   	6.3.26100.1882
+icm32.dll   	6.3.26100.1882
+kernel.appcore.dll	6.3.26100.1591
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.26100.1882
+Oleacc.dll  	7.2.26100.1882
+D3D9.DLL    	6.3.26100.1882
+dwmapi.dll  	6.3.26100.1882
+dxcore.dll  	6.3.26100.1882
+igdumdim32.dll	31.0.101.2127
+igd9dxva32.dll	31.0.101.2127
+igdgmm32.dll	31.0.101.2127
+directxdatabasehelper.dll	6.3.26100.1882
+igdinfo32.dll
+igc32.dll   	31.0.101.2127
+hid.dll     	6.3.26100.1
+DEVOBJ.dll  	6.3.26100.1
+WINTRUST.dll	6.3.26100.1882
+MSASN1.dll  	6.3.26100.1
+dinput8.dll 	6.3.26100.1591
+inputhost.dll	6.3.26100.1882
+CoreMessaging.dll	6.3.26100.1
+Windows.Gaming.Input.dll	6.3.26100.1882
+bcrypt.dll  	6.3.26100.1882
+twinapi.appcore.dll	6.3.26100.1882
+WinTypes.dll	6.3.26100.1882
+OneCoreUAPCommonProxyStub.dll	6.3.26100.1882
+MMDevAPI.DLL	6.3.26100.1882
+wdmaud.drv  	6.3.26100.1882
+AUDIOSES.DLL	6.3.26100.1882
+msacm32.drv 	6.3.26100.1882
+MSACM32.dll 	6.3.26100.1882
+midimap.dll 	6.3.26100.1882
+resourcepolicyclient.dll	6.3.26100.1
+Windows.UI.dll	6.3.26100.1882
+avrt.dll    	6.3.26100.1
+CoreUIComponents.dll	6.3.26100.1882
+shlwapi.dll 	6.3.26100.1882
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, November 8, 2024 at 16:45:48.
+
+srb2win.exe caused an Access Violation at location 005C2E86 in module srb2win.exe Reading from location 32172C4C.
+
+Registers:
+eax=fc30e5b3 ebx=005c2e70 ecx=00000320 edx=ffffffff esi=08bb8c9c edi=32172c4c
+eip=005c2e86 esp=054afc00 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+005C2E86 00000000 00000000 00000000  srb2win.exe!R_DrawMaskedColumn
+
+srb2win.exe 	2.2.13.0
+ntdll.dll   	6.3.26100.2033
+KERNEL32.DLL	6.3.26100.1882
+KERNELBASE.dll	6.3.26100.2033
+ADVAPI32.dll	6.3.26100.2033
+msvcrt.dll  	7.0.26100.1882
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.26100.1882
+libgme.dll
+libopenmpt.dll	1.0.0.0
+CRYPT32.dll 	6.3.26100.1882
+USER32.dll  	6.3.26100.2033
+RPCRT4.dll  	6.3.26100.268
+ucrtbase.dll	6.3.26100.1882
+win32u.dll  	6.3.26100.1882
+SHELL32.dll 	6.3.26100.1882
+GDI32.dll   	6.3.26100.2033
+wldap32.dll 	6.3.26100.1882
+msvcp_win.dll	6.3.26100.1882
+SDL2.dll    	2.0.20.0
+gdi32full.dll	6.3.26100.2033
+WS2_32.dll  	6.3.26100.1882
+IMM32.DLL   	6.3.26100.1
+ole32.dll   	6.3.26100.1882
+SDL2_mixer_ext.dll	2.1.0.0
+combase.dll 	6.3.26100.2033
+OLEAUT32.dll	6.3.26100.1882
+SETUPAPI.dll	6.3.26100.1882
+libgcc_s_sjlj-1.dll
+WINMM.DLL   	6.3.26100.1882
+libstdc++-6.dll
+CRYPTBASE.DLL	6.3.26100.1
+VERSION.dll 	6.3.26100.1
+cfgmgr32.DLL	6.3.26100.1882
+libfluidsynth-2.dll
+DSOUND.dll  	6.3.26100.1882
+ResampleDmo.DLL	6.3.26100.1
+winmmbase.dll	6.3.26100.1
+powrprof.dll	6.3.26100.1
+msdmo.dll   	6.3.26100.1
+UMPDC.dll   	6.3.26100.1301
+uxtheme.dll 	6.3.26100.1882
+MSCTF.dll   	6.3.26100.2033
+shcore.dll  	6.3.26100.1882
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.26100.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.26100.2033
+dbgcore.DLL 	6.3.26100.1882
+bcryptPrimitives.dll	6.3.26100.2033
+Windows.Storage.dll	6.3.26100.2033
+mscms.dll   	6.3.26100.1882
+icm32.dll   	6.3.26100.1882
+kernel.appcore.dll	6.3.26100.1591
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.26100.1882
+Oleacc.dll  	7.2.26100.1882
+CoreMessaging.dll	6.3.26100.1
+CoreUIComponents.dll	6.3.26100.1882
+wintypes.dll	6.3.26100.1882
+D3D9.DLL    	6.3.26100.1882
+dwmapi.dll  	6.3.26100.1882
+dxcore.dll  	6.3.26100.1882
+igdumdim32.dll	31.0.101.2127
+igd9dxva32.dll	31.0.101.2127
+igdgmm32.dll	31.0.101.2127
+directxdatabasehelper.dll	6.3.26100.1882
+igdinfo32.dll
+igc32.dll   	31.0.101.2127
+hid.dll     	6.3.26100.1
+DEVOBJ.dll  	6.3.26100.1
+WINTRUST.dll	6.3.26100.1882
+MSASN1.dll  	6.3.26100.1
+dinput8.dll 	6.3.26100.1591
+inputhost.dll	6.3.26100.1882
+Windows.Gaming.Input.dll	6.3.26100.1882
+bcrypt.dll  	6.3.26100.1882
+twinapi.appcore.dll	6.3.26100.1882
+OneCoreUAPCommonProxyStub.dll	6.3.26100.1882
+MMDevAPI.DLL	6.3.26100.1882
+wdmaud.drv  	6.3.26100.1882
+AUDIOSES.DLL	6.3.26100.1882
+msacm32.drv 	6.3.26100.1882
+MSACM32.dll 	6.3.26100.1882
+midimap.dll 	6.3.26100.1882
+resourcepolicyclient.dll	6.3.26100.1
+Windows.UI.dll	6.3.26100.1882
+avrt.dll    	6.3.26100.1
+shlwapi.dll 	6.3.26100.1882
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, November 17, 2024 at 12:29:12.
+
+srb2win.exe caused an Access Violation at location 005C2E86 in module srb2win.exe Reading from location 19DE4EF3.
+
+Registers:
+eax=ff82cf4d ebx=005c2e70 ecx=ffffffff edx=000002e0 esi=08b25e64 edi=19de4ef3
+eip=005c2e86 esp=054afc00 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+005C2E86 00000000 00000000 00000000  srb2win.exe!R_DrawMaskedColumn
+
+srb2win.exe 	2.2.13.0
+ntdll.dll   	6.3.26100.2161
+KERNEL32.DLL	6.3.26100.2161
+KERNELBASE.dll	6.3.26100.2161
+ADVAPI32.dll	6.3.26100.2033
+msvcrt.dll  	7.0.26100.1882
+sechost.dll 	6.3.26100.1882
+libgme.dll
+libcurl.dll 	7.69.0.0
+RPCRT4.dll  	6.3.26100.268
+USER32.dll  	6.3.26100.2161
+libopenmpt.dll	1.0.0.0
+CRYPT32.dll 	6.3.26100.2161
+ucrtbase.dll	6.3.26100.1882
+win32u.dll  	6.3.26100.2161
+SHELL32.dll 	6.3.26100.2161
+SDL2.dll    	2.0.20.0
+msvcp_win.dll	6.3.26100.1882
+GDI32.dll   	6.3.26100.2033
+wldap32.dll 	6.3.26100.1882
+IMM32.DLL   	6.3.26100.1
+gdi32full.dll	6.3.26100.2161
+WS2_32.dll  	6.3.26100.1882
+ole32.dll   	6.3.26100.1882
+combase.dll 	6.3.26100.2161
+SDL2_mixer_ext.dll	2.1.0.0
+OLEAUT32.dll	6.3.26100.1882
+SETUPAPI.dll	6.3.26100.2161
+libgcc_s_sjlj-1.dll
+WINMM.DLL   	6.3.26100.1882
+libstdc++-6.dll
+VERSION.dll 	6.3.26100.1
+cfgmgr32.DLL	6.3.26100.2161
+libfluidsynth-2.dll
+CRYPTBASE.DLL	6.3.26100.1
+DSOUND.dll  	6.3.26100.1882
+powrprof.dll	6.3.26100.1
+ResampleDmo.DLL	6.3.26100.1
+winmmbase.dll	6.3.26100.1
+msdmo.dll   	6.3.26100.1
+UMPDC.dll   	6.3.26100.1301
+uxtheme.dll 	6.3.26100.2161
+MSCTF.dll   	6.3.26100.2161
+shcore.dll  	6.3.26100.1882
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.26100.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.26100.2033
+dbgcore.DLL 	6.3.26100.1882
+bcryptPrimitives.dll	6.3.26100.2033
+Windows.Storage.dll	6.3.26100.2161
+mscms.dll   	6.3.26100.1882
+icm32.dll   	6.3.26100.1882
+kernel.appcore.dll	6.3.26100.1591
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.26100.2161
+Oleacc.dll  	7.2.26100.2161
+CoreMessaging.dll	6.3.26100.1
+CoreUIComponents.dll	6.3.26100.1882
+wintypes.dll	6.3.26100.1882
+D3D9.DLL    	6.3.26100.1882
+dwmapi.dll  	6.3.26100.1882
+dxcore.dll  	6.3.26100.2161
+igdumdim32.dll	31.0.101.2127
+igd9dxva32.dll	31.0.101.2127
+igdgmm32.dll	31.0.101.2127
+directxdatabasehelper.dll	6.3.26100.2161
+igdinfo32.dll
+igc32.dll   	31.0.101.2127
+hid.dll     	6.3.26100.1
+DEVOBJ.dll  	6.3.26100.1
+WINTRUST.dll	6.3.26100.2161
+MSASN1.dll  	6.3.26100.1
+dinput8.dll 	6.3.26100.1591
+inputhost.dll	6.3.26100.2161
+Windows.Gaming.Input.dll	6.3.26100.1882
+bcrypt.dll  	6.3.26100.1882
+twinapi.appcore.dll	6.3.26100.2161
+OneCoreUAPCommonProxyStub.dll	6.3.26100.2161
+MMDevAPI.DLL	6.3.26100.1882
+wdmaud.drv  	6.3.26100.1882
+AUDIOSES.DLL	6.3.26100.2161
+msacm32.drv 	6.3.26100.1882
+MSACM32.dll 	6.3.26100.1882
+midimap.dll 	6.3.26100.1882
+resourcepolicyclient.dll	6.3.26100.1
+Windows.UI.dll	6.3.26100.2161
+avrt.dll    	6.3.26100.1
+shlwapi.dll 	6.3.26100.1882
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Sunday, November 17, 2024 at 13:37:15.
+
+srb2win.exe caused an Access Violation at location 005C2E86 in module srb2win.exe Reading from location 352935B4.
+
+Registers:
+eax=0122709b ebx=005c2e70 ecx=ffffffff edx=000002e0 esi=19452644 edi=352935b4
+eip=005c2e86 esp=054afc00 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+005C2E86 00000000 00000000 00000000  srb2win.exe!R_DrawMaskedColumn
+
+srb2win.exe 	2.2.13.0
+ntdll.dll   	6.3.26100.2161
+KERNEL32.DLL	6.3.26100.2161
+KERNELBASE.dll	6.3.26100.2161
+ADVAPI32.dll	6.3.26100.2033
+msvcrt.dll  	7.0.26100.1882
+sechost.dll 	6.3.26100.1882
+libcurl.dll 	7.69.0.0
+libgme.dll
+libopenmpt.dll	1.0.0.0
+CRYPT32.dll 	6.3.26100.2161
+RPCRT4.dll  	6.3.26100.268
+USER32.dll  	6.3.26100.2161
+ucrtbase.dll	6.3.26100.1882
+win32u.dll  	6.3.26100.2161
+SHELL32.dll 	6.3.26100.2161
+msvcp_win.dll	6.3.26100.1882
+wldap32.dll 	6.3.26100.1882
+SDL2.dll    	2.0.20.0
+GDI32.dll   	6.3.26100.2033
+IMM32.DLL   	6.3.26100.1
+gdi32full.dll	6.3.26100.2161
+WS2_32.dll  	6.3.26100.1882
+ole32.dll   	6.3.26100.1882
+combase.dll 	6.3.26100.2161
+SDL2_mixer_ext.dll	2.1.0.0
+OLEAUT32.dll	6.3.26100.1882
+SETUPAPI.dll	6.3.26100.2161
+libgcc_s_sjlj-1.dll
+WINMM.DLL   	6.3.26100.1882
+libstdc++-6.dll
+VERSION.dll 	6.3.26100.1
+cfgmgr32.DLL	6.3.26100.2161
+libfluidsynth-2.dll
+CRYPTBASE.DLL	6.3.26100.1
+DSOUND.dll  	6.3.26100.1882
+powrprof.dll	6.3.26100.1
+ResampleDmo.DLL	6.3.26100.1
+winmmbase.dll	6.3.26100.1
+msdmo.dll   	6.3.26100.1
+UMPDC.dll   	6.3.26100.1301
+uxtheme.dll 	6.3.26100.2161
+MSCTF.dll   	6.3.26100.2161
+shcore.dll  	6.3.26100.1882
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.26100.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.26100.2033
+dbgcore.DLL 	6.3.26100.1882
+bcryptPrimitives.dll	6.3.26100.2033
+Windows.Storage.dll	6.3.26100.2161
+mscms.dll   	6.3.26100.1882
+icm32.dll   	6.3.26100.1882
+kernel.appcore.dll	6.3.26100.1591
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.26100.2161
+Oleacc.dll  	7.2.26100.2161
+CoreMessaging.dll	6.3.26100.1
+CoreUIComponents.dll	6.3.26100.1882
+wintypes.dll	6.3.26100.1882
+D3D9.DLL    	6.3.26100.1882
+dwmapi.dll  	6.3.26100.1882
+dxcore.dll  	6.3.26100.2161
+igdumdim32.dll	31.0.101.2127
+igd9dxva32.dll	31.0.101.2127
+igdgmm32.dll	31.0.101.2127
+directxdatabasehelper.dll	6.3.26100.2161
+igdinfo32.dll
+igc32.dll   	31.0.101.2127
+hid.dll     	6.3.26100.1
+DEVOBJ.dll  	6.3.26100.1
+WINTRUST.dll	6.3.26100.2161
+MSASN1.dll  	6.3.26100.1
+dinput8.dll 	6.3.26100.1591
+inputhost.dll	6.3.26100.2161
+Windows.Gaming.Input.dll	6.3.26100.1882
+bcrypt.dll  	6.3.26100.1882
+twinapi.appcore.dll	6.3.26100.2161
+OneCoreUAPCommonProxyStub.dll	6.3.26100.2161
+MMDevAPI.DLL	6.3.26100.1882
+wdmaud.drv  	6.3.26100.1882
+AUDIOSES.DLL	6.3.26100.2161
+msacm32.drv 	6.3.26100.1882
+MSACM32.dll 	6.3.26100.1882
+midimap.dll 	6.3.26100.1882
+resourcepolicyclient.dll	6.3.26100.1
+Windows.UI.dll	6.3.26100.2161
+avrt.dll    	6.3.26100.1
+shlwapi.dll 	6.3.26100.1882
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Friday, September 5, 2025 at 15:59:57.
+
+srb2win.exe caused an Access Violation at location 005C2E86 in module srb2win.exe Reading from location EEBBF200.
+
+Registers:
+eax=0018fab5 ebx=005c2e70 ecx=1651f5e8 edx=0000003d esi=0821c994 edi=eebbf200
+eip=005c2e86 esp=054afc00 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+005C2E86 00000000 00000000 00000000  srb2win.exe!R_DrawMaskedColumn
+
+srb2win.exe 	2.2.13.0
+ntdll.dll   	6.3.26100.5074
+KERNEL32.DLL	6.3.26100.5074
+KERNELBASE.dll	6.3.26100.5074
+ADVAPI32.dll	6.3.26100.5074
+msvcrt.dll  	7.0.26100.5074
+libcurl.dll 	7.69.0.0
+sechost.dll 	6.3.26100.5074
+CRYPT32.dll 	6.3.26100.5074
+RPCRT4.dll  	6.3.26100.5074
+ucrtbase.dll	6.3.26100.5074
+SHELL32.dll 	6.3.26100.5074
+msvcp_win.dll	6.3.26100.5074
+USER32.dll  	6.3.26100.5074
+wldap32.dll 	6.3.26100.5074
+win32u.dll  	6.3.26100.5074
+GDI32.dll   	6.3.26100.5074
+gdi32full.dll	6.3.26100.5074
+wintypes.dll	6.3.26100.5074
+WS2_32.dll  	6.3.26100.5074
+combase.dll 	6.3.26100.5074
+SDL2_mixer_ext.dll	2.1.0.0
+libgme.dll
+WINMM.DLL   	6.3.26100.5074
+SDL2.dll    	2.0.20.0
+IMM32.DLL   	6.3.26100.4484
+ole32.dll   	6.3.26100.5074
+OLEAUT32.dll	6.3.26100.5074
+SETUPAPI.dll	6.3.26100.5074
+libgcc_s_sjlj-1.dll
+VERSION.dll 	6.3.26100.1
+cfgmgr32.DLL	6.3.26100.4202
+libstdc++-6.dll
+libopenmpt.dll	1.0.0.0
+CRYPTBASE.DLL	6.3.26100.5074
+libfluidsynth-2.dll
+DSOUND.dll  	6.3.26100.5074
+powrprof.dll	6.3.26100.3912
+ResampleDmo.DLL	6.3.26100.1
+winmmbase.dll	6.3.26100.5074
+msdmo.dll   	6.3.26100.1
+UMPDC.dll   	6.3.26100.1301
+uxtheme.dll 	6.3.26100.5074
+MSCTF.dll   	6.3.26100.5074
+shcore.dll  	6.3.26100.5074
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.26100.1
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.26100.5074
+dbgcore.DLL 	6.3.26100.5074
+bcryptPrimitives.dll	6.3.26100.5074
+Windows.Storage.dll	6.3.26100.5074
+mscms.dll   	6.3.26100.5074
+icm32.dll   	6.3.26100.2314
+kernel.appcore.dll	6.3.26100.5074
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.26100.5074
+Oleacc.dll  	7.2.26100.5074
+CoreMessaging.dll	6.3.26100.4202
+CoreUIComponents.dll	6.3.26100.5074
+D3D9.DLL    	6.3.26100.5074
+dwmapi.dll  	6.3.26100.5074
+dxcore.dll  	6.3.26100.5074
+igdumdim32.dll	31.0.101.2134
+igd9dxva32.dll	31.0.101.2134
+igdgmm32.dll	31.0.101.2134
+directxdatabasehelper.dll	6.3.26100.5074
+igdinfo32.dll
+igc32.dll   	31.0.101.2134
+hid.dll     	6.3.26100.1
+DEVOBJ.dll  	6.3.26100.1
+WINTRUST.dll	6.3.26100.5074
+MSASN1.dll  	6.3.26100.5074
+dinput8.dll 	6.3.26100.1591
+inputhost.dll	6.3.26100.5074
+Windows.Gaming.Input.dll	6.3.26100.5074
+bcrypt.dll  	6.3.26100.5074
+twinapi.appcore.dll	6.3.26100.5074
+OneCoreUAPCommonProxyStub.dll	6.3.26100.5074
+MMDevAPI.DLL	6.3.26100.5074
+wdmaud.drv  	6.3.26100.5074
+AUDIOSES.DLL	6.3.26100.5074
+msacm32.drv 	6.3.26100.1882
+MSACM32.dll 	6.3.26100.1882
+midimap.dll 	6.3.26100.1882
+resourcepolicyclient.dll	6.3.26100.1
+Windows.UI.dll	6.3.26100.5074
+avrt.dll    	6.3.26100.4202
+shlwapi.dll 	6.3.26100.5074
+
+Windows 6.3.9600
+DrMingw 0.9.0
+
+-------------------
+
+Error occurred on Thursday, October 29, 2026 at 02:33:38.
+
+srb2win.exe caused an Access Violation at location 005C2E86 in module srb2win.exe Reading from location 97A9969B.
+
+Registers:
+eax=ffffc74c ebx=005c2e70 ecx=16abd6e9 edx=0000003d esi=17d6ebcc edi=97a9969b
+eip=005c2e86 esp=054afc00 ebp=00000000 iopl=0         nv up ei pl nz na po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00210206
+
+AddrPC   Params
+005C2E86 00000000 00000000 00000000  srb2win.exe!R_DrawMaskedColumn
+
+srb2win.exe 	2.2.13.0
+ntdll.dll   	6.3.26100.9711
+KERNEL32.DLL	6.3.26100.9711
+KERNELBASE.dll	6.3.26100.9711
+ADVAPI32.dll	6.3.26100.9711
+msvcrt.dll  	7.0.26100.9711
+sechost.dll 	6.3.26100.9711
+libcurl.dll 	7.69.0.0
+CRYPT32.dll 	6.3.26100.9549
+RPCRT4.dll  	6.3.26100.9711
+ucrtbase.dll	6.3.26100.9711
+SHELL32.dll 	6.3.26100.9711
+msvcp_win.dll	6.3.26100.9711
+wldap32.dll 	6.3.26100.9549
+WS2_32.dll  	6.3.26100.9711
+USER32.dll  	6.3.26100.9711
+win32u.dll  	6.3.26100.9711
+GDI32.dll   	6.3.26100.8521
+gdi32full.dll	6.3.26100.9711
+SDL2_mixer_ext.dll	2.1.0.0
+libgme.dll
+WINMM.DLL   	6.3.26100.9549
+SDL2.dll    	2.0.20.0
+IMM32.DLL   	6.3.26100.9278
+ole32.dll   	6.3.26100.9549
+combase.dll 	6.3.26100.9711
+OLEAUT32.dll	6.3.26100.9711
+SETUPAPI.dll	6.3.26100.9549
+libgcc_s_sjlj-1.dll
+VERSION.dll 	6.3.26100.1
+cfgmgr32.DLL	6.3.26100.9549
+libstdc++-6.dll
+libopenmpt.dll	1.0.0.0
+CRYPTBASE.DLL	6.3.26100.9711
+libfluidsynth-2.dll
+DSOUND.dll  	6.3.26100.9549
+powrprof.dll	6.3.26100.3912
+ResampleDmo.DLL	6.3.26100.9549
+shcore.dll  	6.3.26100.9711
+winmmbase.dll	6.3.26100.9549
+msdmo.dll   	6.3.26100.1
+UMPDC.dll   	6.3.26100.8972
+uxtheme.dll 	6.3.26100.9711
+MSCTF.dll   	6.3.26100.9549
+exchndl.dll 	0.9.0.0
+PSAPI.DLL   	6.3.26100.8521
+mgwhelp.dll 	0.9.0.0
+dbghelp.dll 	6.3.26100.9549
+dbgcore.DLL 	6.3.26100.9549
+bcryptPrimitives.dll	6.3.26100.9711
+Windows.Storage.dll	6.3.26100.9711
+mscms.dll   	6.3.26100.9549
+icm32.dll   	6.3.26100.9168
+kernel.appcore.dll	6.3.26100.9278
+clbcatq.dll 	2001.12.10941.16384
+textinputframework.dll	6.3.26100.9711
+Oleacc.dll  	7.2.26100.9549
+CoreMessaging.dll	6.3.26100.9711
+CoreUIComponents.dll	6.3.26100.9549
+wintypes.dll	6.3.26100.9711
+D3D9.DLL    	6.3.26100.9549
+dwmapi.dll  	6.3.26100.9549
+dxcore.dll  	6.3.26100.9549
+igdumdim32.dll	31.0.101.2137
+igd9dxva32.dll	31.0.101.2137
+igdgmm32.dll	31.0.101.2137
+directxdatabasehelper.dll	6.3.26100.9711
+igdinfo32.dll
+igc32.dll   	31.0.101.2137
+hid.dll     	6.3.26100.1
+DEVOBJ.dll  	6.3.26100.9549
+WINTRUST.dll	6.3.26100.9549
+MSASN1.dll  	6.3.26100.9711
+dinput8.dll 	6.3.26100.8521
+inputhost.dll	6.3.26100.9711
+Windows.Gaming.Input.dll	6.3.26100.9549
+bcrypt.dll  	6.3.26100.9711
+twinapi.appcore.dll	6.3.26100.9711
+OneCoreUAPCommonProxyStub.dll	6.3.26100.9711
+MMDevAPI.DLL	6.3.26100.9711
+wdmaud.drv  	6.3.26100.9549
+wdmaud2.drv 	6.3.26100.9711
+AVRT.dll    	6.3.26100.4202
+AUDIOSES.DLL	6.3.26100.9549
+msacm32.drv 	6.3.26100.1882
+MSACM32.dll 	6.3.26100.7019
+midimap.dll 	6.3.26100.1882
+resourcepolicyclient.dll	6.3.26100.8115
+Windows.UI.dll	6.3.26100.9549
+shlwapi.dll 	6.3.26100.9711
+
+Windows 6.3.9600
+DrMingw 0.9.0
+

@@ -1,0 +1,394 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\player.dta (1869 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\player.dta|SOC_PLAY
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\patch.pk3 (18 lumps)
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Unknown command 'silv_memevoices'
+Unknown command 'silv_norollangle'
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2025-07-20_17-25-06.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Sep  9 2023 01:19:03 a4a3b5b0 master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to play Record Attack.
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3 (476 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Defs.LUA
+Pardon me while I initialize the Lua scripting interface...
+Sound sfx_thrw1 allocated.
+Sound sfx_thrw2 allocated.
+Sound sfx_thrw3 allocated.
+Sound sfx_thrw4 allocated.
+Sound sfx_skill1 allocated.
+Sound sfx_skill2 allocated.
+Sound sfx_skill3 allocated.
+Sound sfx_skills allocated.
+Sound sfx_silrip allocated.
+Sound sfx_float allocated.
+Sound sfx_cancel allocated.
+Sound sfx_levi allocated.
+Sound sfx_psybst allocated.
+Sprite SPR_SFLI allocated.
+State S_SILV_WARNINGINDICATOR allocated.
+State S_SILV_TIREDINDICATOR allocated.
+Sprite SPR_SLCK allocated.
+State S_LOCKON_SILV allocated.
+Sprite SPR_FRAG allocated.
+State S_FRAG1 allocated.
+State S_FRAG2 allocated.
+State S_FRAG3 allocated.
+State S_FRAG4 allocated.
+State S_FRAG5 allocated.
+Sprite SPR_HOWL allocated.
+State S_HOWL1 allocated.
+State S_HOWL2 allocated.
+State S_HOWL3 allocated.
+Sprite SPR_RGRB allocated.
+Sprite SPR_KLIT allocated.
+MobjType MT_PSYHITBOX allocated.
+State S_SILVTHROW allocated.
+MobjType MT_EGGROBO_SPAWNHELPER allocated.
+State S_EGGROBO_SPAWNHELPER allocated.
+MobjType MT_SILVERTRAIL allocated.
+Sprite SPR_STHK allocated.
+State S_SILVERTRAIL1 allocated.
+State S_SILVERTRAIL2 allocated.
+MobjType MT_SILV_IDLEHOLD allocated.
+State S_SILV_IDLEHOLD allocated.
+Sprite SPR2_GARD allocated.
+State S_PLAY_SILVGUARD allocated.
+State S_LASER_FLAGSET allocated.
+MobjType MT_PSYCHOCUT allocated.
+Sprite SPR_PSCT allocated.
+Sound sfx_pscut allocated.
+State S_PSYCUT allocated.
+State S_PSYCUT2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Cmd.Lua
+Added command "silv_auracolor"
+Added command "silv_invertflight"
+Added command "silv_throwall"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Main.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Carry.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_TK_extra.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Telekinesis.lua
+Sound sfx_ovrchr allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Shield.lua
+Sprite SPR_KLIT allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Cut.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Bot.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_BattleMod.Lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Captions.lua
+--------------------------------------------------
+
+Silver the Hedgehog - v2.12 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|SOC/SOC_PLAY
+VCL_Silver-v2.12.pk3 added 69 frames in 8 sprites
+WARNING: Bad sprite name: STNDA5 (
+WARNING: Bad sprite name: WAITA1 (
+WARNING: Bad sprite name: WAITA5 (
+WARNING: Bad sprite name: RUN_A1 (
+WARNING: Bad sprite name: RUN_A2 (
+WARNING: Bad sprite name: RUN_A3 (
+WARNING: Bad sprite name: RUN_A4 (
+WARNING: Bad sprite name: RUN_A5 (
+WARNING: Bad sprite name: RUN_A6 (
+WARNING: Bad sprite name: RUN_A7 (
+WARNING: Bad sprite name: RUN_A8 (
+WARNING: Bad sprite name: RUN_B1 (
+WARNING: Bad sprite name: RUN_B2 (
+WARNING: Bad sprite name: RUN_B3 (
+WARNING: Bad sprite name: RUN_B4 (
+WARNING: Bad sprite name: RUN_B5 (
+WARNING: Bad sprite name: RUN_B6 (
+WARNING: Bad sprite name: RUN_B7 (
+WARNING: Bad sprite name: RUN_B8 (
+WARNING: Bad sprite name: GASPA1 (
+WARNING: Bad sprite name: GASPA5 (
+WARNING: Bad sprite name: FALLA4 (
+WARNING: Bad sprite name: FALLB4 (
+WARNING: Bad sprite name: FALLA5 (
+WARNING: Bad sprite name: FALLB5 (
+WARNING: Bad sprite name: FALLA6 (
+WARNING: Bad sprite name: FALLB6 (
+WARNING: Bad sprite name: RIDEA1 (
+WARNING: Bad sprite name: RIDEA5 (
+WARNING: Bad sprite name: FLT_A5 (
+WARNING: Bad sprite name: FRUNA1 (
+WARNING: Bad sprite name: FRUNA5 (
+WARNING: Bad sprite name: FRUNB1 (
+WARNING: Bad sprite name: FRUNB5 (
+WARNING: Bad sprite name: GARDA1 (
+WARNING: Bad sprite name: GARDA5 (
+Added skin 'silver'
+No maps added
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3 (317 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Defs.LUA
+Sound sfx_wngfl allocated.
+Sound sfx_wngapr allocated.
+Sound sfx_hsdash allocated.
+Sound sfx_hsslas allocated.
+Sound sfx_skew allocated.
+Sprite SPR2_MFAL allocated.
+State S_PLAY_MIDFALL allocated.
+Sprite SPR2_FLTE allocated.
+State S_PLAY_FLOATEND allocated.
+Sprite SPR2_FLTS allocated.
+State S_PLAY_FLOATSTART allocated.
+State S_PLAY_APGUARD allocated.
+Sprite SPR2_HWLP allocated.
+Sprite SPR2_HOWL allocated.
+State S_PLAY_HOWLING_PREP1 allocated.
+State S_PLAY_HOWLING_PREP2 allocated.
+State S_PLAY_HOWLING allocated.
+State S_PLAY_HANDSONIC allocated.
+Sprite SPR2_BLSH allocated.
+Sprite SPR2_KHUG allocated.
+State S_KANADE_B allocated.
+State S_KANADE_H allocated.
+MobjType MT_KANADEWING allocated.
+State S_KANADEWING allocated.
+Sprite SPR_KWNG allocated.
+MobjType MT_KANADEUPDRAFT allocated.
+Sprite SPR_UDRT allocated.
+MobjType MT_HS_HITBOX allocated.
+Sprite SPR_HSSL allocated.
+State S_HANDSONIC_SLASH1 allocated.
+State S_HANDSONIC_SLASH2 allocated.
+State S_HANDSONIC_SLASH3 allocated.
+State S_HANDSONIC_STAB allocated.
+Sprite SPR_HSST allocated.
+Sprite SPR_WSRK allocated.
+State S_WINGSPARK1 allocated.
+State S_WINGSPARK2 allocated.
+State S_WINGSPARK3 allocated.
+State S_WINGSPARK4 allocated.
+State S_WINGSPARK5 allocated.
+Sound sfx_howl1 allocated.
+Sound sfx_howl2 allocated.
+MobjType MT_HOWLING allocated.
+Sprite SPR_HOWL allocated.
+State S_KHOWL1 allocated.
+State S_KHOWL2 allocated.
+State S_KHOWL3 allocated.
+MobjType MT_AP_PAINMOBJ allocated.
+State S_AP_PAINMOBJ allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_AngelWings.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_badnikCut.LUA
+Sprite SPR_SLCB allocated.
+Sprite SPR_SLC2 allocated.
+Sprite SPR_SLC3 allocated.
+MobjType MT_SLICEDPART allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_HandSonic.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Extras.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Overdrive.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_BattleMod.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|Lua/AP_Main.LUA
+--------------------------------------------------
+
+Kanade Tachibana - v1.1 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\cl_Kanade-v1.1.pk3|SOC/SOC_PLAY
+cl_Kanade-v1.1.pk3 added 72 frames in 9 sprites
+Added skin 'kanade'
+No maps added
+Starting Server....
+Speeding off to level...
+Speeding off to level...
+$objectpleace
+Unknown command 'objectpleace'
+$objectpleace
+Unknown command 'objectpleace'
+$objectplace
+NOTICE: Game must be restarted to save progress.
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 100 at -14604, 1643, 32, 160
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 313 at -306, 891, 0, 72
+Placed object type 314 at -340, 784, 0, 72
+Placed object type 315 at -359, 723, 0, 72
+Placed object type 316 at -374, 677, 0, 72
+Placed object type 317 at -403, 586, 0, 72
+Placed object type 318 at -433, 494, 0, 72
+Placed object type 319 at -483, 411, 0, 69
+Placed object type 400 at -671, 316, 0, 337
+Placed object type 400 at -1, -855, 0, 349
+Placed object type 400 at 692, 313, 0, 134
+Placed object type 400 at 664, -316, 2, 310
+Placed object type 400 at 673, -652, 0, 198
+Placed object type 400 at 350, -660, 0, 165
+Placed object type 400 at -113, -536, 0, 159
+Placed object type 400 at -644, -196, 0, 130
+Placed object type 400 at -813, 165, 0, 92
+Placed object type 400 at -691, 576, 0, 32
+Placed object type 400 at -261, 853, 0, 32
+Placed object type 400 at 232, 970, 0, 337
+Placed object type 400 at 601, 640, 0, 320
+Placed object type 400 at 834, 219, 0, 287
+Placed object type 400 at 835, -366, 0, 264
+Placed object type 402 at 218, -751, 0, 140
+Placed object type 402 at -145, -642, 0, 184
+Placed object type 402 at -908, -171, 0, 101
+Placed object type 404 at -616, 118, 0, 10
+Placed object type 406 at -158, 547, 0, 60
+Placed object type 406 at 562, 814, 0, 353
+Placed object type 406 at 953, -69, 0, 262
+Placed object type 406 at 348, -924, 0, 210
+Placed object type 408 at -310, -473, 0, 102
+Placed object type 408 at -943, -135, 0, 210
+Placed object type 408 at -500, -801, 0, 317
+Placed object type 408 at -13, -55, 504, 77
+Placed object type 408 at -47, 308, 0, 93
+Placed object type 408 at 261, 392, 0, 14
+Placed object type 420 at 496, -119, 0, 311
+Placed object type 421 at -210, -889, 0, 272
+Placed object type 422 at -982, 111, 0, 82
+Placed object type 434 at 834, 582, 0, 286
+Placed object type 801 at -9, -18, 504, 284
+Placed object type 806 at -105, 392, 0, 75
+Placed object type 2102 at -517, -794, 0, 23
+Placed object type 811 at 766, -142, 0, 27
+Placed object type 812 at 273, -46, 0, 220
+Placed object type 1213 at -265, -204, 0, 105
+Placed object type 200 at 836, -567, 0, 334
+Placed object type 208 at -338, -970, 0, 64
+$objectplacobjectplacee
+Unknown command 'objectplacobjectplacee'
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 434 at -551, -541, 0, 216
+Placed object type 434 at -782, -192, 0, 163
+Placed object type 434 at -873, -480, 0, 4
+Placed object type 434 at -847, -356, 0, 84
+Placed object type 434 at -658, -615, 0, 306
+Placed object type 434 at -800, -565, 0, 188
+Placed object type 434 at -878, -284, 0, 76
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 118 at -97, 789, 2, 28
+Placed object type 118 at 213, 850, 0, 329
+Placed object type 118 at 392, 744, 0, 329
+Placed object type 118 at 643, 574, 0, 312
+Placed object type 118 at 771, 432, 0, 310
+Placed object type 118 at 828, 227, 0, 252
+Placed object type 118 at 772, 44, 0, 252
+Placed object type 118 at 729, -127, 0, 259
+Placed object type 118 at 679, -345, 2, 247
+Placed object type 118 at 522, -502, 0, 221
+Placed object type 118 at 128, -700, 0, 157
+Placed object type 118 at -163, -653, 0, 196
+Placed object type 118 at -411, -678, 0, 157
+Placed object type 118 at -545, -564, 0, 136
+Placed object type 118 at -726, -383, 2, 124
+Placed object type 118 at -805, -209, 0, 111
+Placed object type 118 at -769, 49, 0, 65
+Placed object type 118 at -436, 608, 0, 92
+Placed object type 119 at 262, 530, 0, 1
+Placed object type 119 at 570, 275, 0, 301
+Placed object type 119 at 593, 8, 0, 226
+Placed object type 119 at 352, -248, 0, 226
+Placed object type 119 at 23, -413, 0, 188
+Placed object type 119 at -283, -343, 0, 144
+Placed object type 119 at -492, -82, 0, 96
+Placed object type 119 at -488, 269, 0, 84
+Placed object type 119 at -262, 471, 0, 347
+Placed object type 119 at 176, 466, 0, 15
+Placed object type 404 at 671, -787, 0, 317
+Placed object type 404 at -846, 574, 0, 160
+Placed object type 408 at 9, 1054, 0, 95
+Placed object type 408 at 173, -1034, 0, 264
+Placed object type 436 at -1, 2, 504, 252
+Placed object type 450 at 455, 960, 0, 31
+Placed object type 400 at 283, -644, 0, 320
+Placed object type 400 at 516, -624, 0, 44
+Placed object type 400 at 843, -113, 0, 65
+Placed object type 400 at 904, 276, 0, 114
+Placed object type 400 at 718, 629, 0, 120
+Placed object type 400 at 435, 852, 0, 169
+Placed object type 400 at -22, 934, 0, 169
+Placed object type 400 at -417, 857, 0, 219
+Placed object type 400 at -589, 690, 0, 231
+Placed object type 400 at -815, 381, 0, 248
+Placed object type 400 at -885, 106, 0, 276
+Placed object type 400 at -860, -387, 0, 267
+Placed object type 400 at -667, -625, 0, 334
+Placed object type 400 at -354, -785, 0, 327
+Placed object type 400 at 49, -971, 0, 345
+Placed object type 400 at 496, -821, 0, 56
+$objectplaceobjectplace
+Unknown command 'objectplaceobjectplace'
+$objectplace
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

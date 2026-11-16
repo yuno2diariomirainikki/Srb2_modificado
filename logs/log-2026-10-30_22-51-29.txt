@@ -1,0 +1,251 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\player.dta (1869 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\player.dta|SOC_PLAY
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\patch.pk3 (18 lumps)
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3 (1113 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS1.lua
+Pardon me while I initialize the Lua scripting interface...
+MobjType MT_HALLOWEEN_BOSS1 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS2.lua
+MobjType MT_HALLOWEEN_BOSS2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS3.lua
+MobjType MT_KINGBOO_CHASE allocated.
+MobjType MT_CACOFIRE_SLOW allocated.
+Sound sfx_kboo1 allocated.
+Sound sfx_kboo2 allocated.
+Sound sfx_kboo3 allocated.
+Sound sfx_kboo4 allocated.
+Sound sfx_kboo5 allocated.
+Sound sfx_kboo6 allocated.
+Sound sfx_kboo7 allocated.
+Sound sfx_kboo8 allocated.
+Sound sfx_kboo9 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS4.lua
+MobjType MT_HALLOWEEN_BOSS3 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_BOSS5.lua
+MobjType MT_HALLOWEEN_BOSS4 allocated.
+MobjType MT_HALLOWEEN_BOSS4_SUM allocated.
+MobjType MT_HALLOWEEN_BOSS4_DARK allocated.
+MobjType MT_GHOSTDANCE_FUNI allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_THELINES.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/LUA_HITEMS.lua
+MobjType MT_SPIRIT_EFFECT allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/replaceables.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/mobj ringspill.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/borkring.lua
+MobjType MT_BROKENRING_ICON allocated.
+MobjType MT_BROKENRING_BOX allocated.
+MobjType MT_BROKENRING_GOLDBOX allocated.
+Sprite SPR_TVBR allocated.
+State S_BROKENRING_BOX allocated.
+State S_BROKENRING_GOLDBOX allocated.
+State S_BROKENRING_ICON1 allocated.
+State S_BROKENRING_ICON2 allocated.
+Sprite SPR_MSBR allocated.
+Sprite SPR_XLBR allocated.
+State S_BROKENRING_GOLDBOX_FLICKER allocated.
+State S_BROKENRING_BOX_FLICKER allocated.
+State S_BROKENRING_BOX_POP1 allocated.
+State S_BROKENRING_BOX_POP2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/rockshield.lua
+MobjType MT_ROCKSHIELD_ICON allocated.
+MobjType MT_ROCKSHIELD_BOX allocated.
+MobjType MT_ROCKSHIELD_GOLDBOX allocated.
+State S_ROCKSHIELD_BOX allocated.
+State S_ROCKSHIELD_GOLDBOX allocated.
+State S_ROCKSHIELD_ICON1 allocated.
+State S_ROCKSHIELD_ICON2 allocated.
+Sprite SPR_TVRS allocated.
+MobjType MT_RSROCK allocated.
+MobjType MT_RSSHRAPNEL allocated.
+MobjType MT_AHEADOFPLAYER allocated.
+State S_RSROCK1 allocated.
+State S_RSROCK2 allocated.
+State S_RSSHRHAPNEL1 allocated.
+State S_RSSHRHAPNEL2 allocated.
+State S_RSSHRHAPNEL3 allocated.
+Sprite SPR_RSRO allocated.
+Sprite SPR_RSSH allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/winterbeach.lua
+Sprite SPR_RADI allocated.
+Sprite SPR_RAD2 allocated.
+State S_RADIOSON allocated.
+MobjType MT_RADIO allocated.
+Sprite SPR_WBHO allocated.
+State S_HOLOGRAMSNOW allocated.
+State S_HOLOGRAMSUMMER allocated.
+MobjType MT_WBHOLOGRAM allocated.
+MobjType MT_WBWING allocated.
+State S_WBWING allocated.
+State S_WBWINGNO allocated.
+State S_SEASON_BOX allocated.
+State S_SEASON_GOLDBOX allocated.
+State S_SEASON_ICON1 allocated.
+State S_SEASON_ICON2 allocated.
+MobjType MT_SEASON_ICON allocated.
+MobjType MT_SEASON_BOX allocated.
+MobjType MT_SEASON_GOLDBOX allocated.
+Sprite SPR_TVWM allocated.
+Sprite SPR_WBSC allocated.
+MobjType MT_WBSECRET allocated.
+State S_SECRETWB allocated.
+Sprite SPR_WBS2 allocated.
+MobjType MT_WBSECRET2 allocated.
+State S_SECRETWB2 allocated.
+MobjType MT_NOCRAWLA allocated.
+Sprite SPR_WBSG allocated.
+State S_NO_CRAWLA_SIGN allocated.
+MobjType MT_ICESPRING allocated.
+Sprite SPR_ISRG allocated.
+State S_ICESPRING allocated.
+State S_ICESPRING2 allocated.
+State S_ICESPRING3 allocated.
+State S_ICESPRING4 allocated.
+State S_ICESPRING5 allocated.
+State S_ICESPRING6 allocated.
+State S_ICESPRING7 allocated.
+State S_ICESPRING8 allocated.
+Sound sfx_smwins allocated.
+MobjType MT_ICESHRAPNEL allocated.
+State S_ICESHRAP allocated.
+State S_ICESHRAP2 allocated.
+State S_ICESHRAP3 allocated.
+State S_ICESHRAP4 allocated.
+Sprite SPR_ISHR allocated.
+Sprite SPR_WBT1 allocated.
+State S_XMASGFZTREE allocated.
+Sprite SPR_WBPK allocated.
+State S_XMASPINETREE allocated.
+Sound sfx_sttb3 allocated.
+Sound sfx_sttc7 allocated.
+WARNING: ...ia\extramaps.pk3|Lua/ShiftingSeasons/winterbeach.lua:766: mobjtype 'MT_AWATERA' does not exist.
+
+stack traceback:
+    [C]: ?
+    ...ia\extramaps.pk3|Lua/ShiftingSeasons/winterbeach.lua:766: in main chunk
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|Lua/ShiftingSeasons/autumnspring.lua
+Sprite SPR_WBLE allocated.
+State S_LEAF allocated.
+MobjType MT_FLOATINGLEAVES allocated.
+MobjType MT_LEAFSPAWNER allocated.
+MobjType MT_WBHOLOGRAM2 allocated.
+State S_HOLOGRAMSPRING allocated.
+State S_HOLOGRAMAUTUMN allocated.
+Sprite SPR_WBH2 allocated.
+State S_AUTUMNGFZTREE allocated.
+State S_AUTUMNPINETREE allocated.
+State S_AUTUMNBLUEBERRYBUSH allocated.
+State S_AUTUMNBERRYBUSH allocated.
+State S_AUTUMNBUSH allocated.
+Sound sfx_sttb3 allocated.
+Sprite SPR_ASLP allocated.
+State S_LEAFPILE allocated.
+MobjType MT_LEAFPILE allocated.
+MobjType MT_LEAFDEBRIS allocated.
+Sound sfx_aslf allocated.
+MobjType MT_AUTUMNSPRING allocated.
+State S_AUTUMNSPRING allocated.
+State S_AUTUMNSPRING2 allocated.
+State S_AUTUMNSPRING3 allocated.
+State S_AUTUMNSPRING4 allocated.
+State S_AUTUMNSPRING5 allocated.
+State S_AUTUMNSPRING6 allocated.
+State S_AUTUMNSPRING7 allocated.
+State S_AUTUMNSPRING8 allocated.
+Sprite SPR_ASRG allocated.
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SOC_FIRE
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SOC_ENEMIES
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SOC_LEVELS
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/TurbineFalls/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/TurbineFalls/SOC_IFPA
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/VolcanicPlanet/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/VolcanicPlanet/SOC_TRAMPOLINES
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/AzureParadise/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/AzureParadise/OBJCTCFG
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/NeoPalmtree/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/NeoPalmtree/SOC_NPZ1
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SacredAbyss/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SacredAbyss/SOC_SACR
+WARNING: Line 328: Unknown action NONH
+1 warning in the SOC lump
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SeraphicSkylands/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/SeraphicSkylands/SOC_SERA
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/ExtraMaps/
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\extramaps.pk3|SOC/ExtraMaps/SOC_XLEVALL
+Added file C:\Users\User\Desktop\Arquivos para edio\Games\srb2\srb2\SRB2 v2.2 - Copia\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Levels will end after 10 minutes.
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+extramaps.pk3 added 537 frames in 60 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2026-10-30_22-51-29.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Oct 30 2026 22:46:45 a4a3b5b0 HEAD) SDL Windows 32-bit 
+Starting Server....
+Speeding off to level...
+Starting Server....
+Connecting to: go drink
+Gametype: Co-op
+Version: 2.2.13
+Speeding off to level...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

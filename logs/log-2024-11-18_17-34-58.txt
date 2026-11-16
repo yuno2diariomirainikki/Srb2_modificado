@@ -1,0 +1,213 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\player.dta (1869 lumps)
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\player.dta|SOC_PLAY
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\patch.pk3 (18 lumps)
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2024-11-18_17-34-58.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Sep  9 2023 01:19:03 a4a3b5b0 master) SDL Windows 32-bit 
+NOTICE: Game must be restarted to play Record Attack.
+Added file C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3 (476 lumps)
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Defs.LUA
+Pardon me while I initialize the Lua scripting interface...
+Sound sfx_thrw1 allocated.
+Sound sfx_thrw2 allocated.
+Sound sfx_thrw3 allocated.
+Sound sfx_thrw4 allocated.
+Sound sfx_skill1 allocated.
+Sound sfx_skill2 allocated.
+Sound sfx_skill3 allocated.
+Sound sfx_skills allocated.
+Sound sfx_silrip allocated.
+Sound sfx_float allocated.
+Sound sfx_cancel allocated.
+Sound sfx_levi allocated.
+Sound sfx_psybst allocated.
+Sprite SPR_SFLI allocated.
+State S_SILV_WARNINGINDICATOR allocated.
+State S_SILV_TIREDINDICATOR allocated.
+Sprite SPR_SLCK allocated.
+State S_LOCKON_SILV allocated.
+Sprite SPR_FRAG allocated.
+State S_FRAG1 allocated.
+State S_FRAG2 allocated.
+State S_FRAG3 allocated.
+State S_FRAG4 allocated.
+State S_FRAG5 allocated.
+Sprite SPR_HOWL allocated.
+State S_HOWL1 allocated.
+State S_HOWL2 allocated.
+State S_HOWL3 allocated.
+Sprite SPR_RGRB allocated.
+Sprite SPR_KLIT allocated.
+MobjType MT_PSYHITBOX allocated.
+State S_SILVTHROW allocated.
+MobjType MT_EGGROBO_SPAWNHELPER allocated.
+State S_EGGROBO_SPAWNHELPER allocated.
+MobjType MT_SILVERTRAIL allocated.
+Sprite SPR_STHK allocated.
+State S_SILVERTRAIL1 allocated.
+State S_SILVERTRAIL2 allocated.
+MobjType MT_SILV_IDLEHOLD allocated.
+State S_SILV_IDLEHOLD allocated.
+Sprite SPR2_GARD allocated.
+State S_PLAY_SILVGUARD allocated.
+State S_LASER_FLAGSET allocated.
+MobjType MT_PSYCHOCUT allocated.
+Sprite SPR_PSCT allocated.
+Sound sfx_pscut allocated.
+State S_PSYCUT allocated.
+State S_PSYCUT2 allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Cmd.Lua
+Added command "silv_auracolor"
+Added command "silv_invertflight"
+Added command "silv_throwall"
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Main.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Carry.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_TK_extra.LUA
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Telekinesis.lua
+Sound sfx_ovrchr allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Shield.lua
+Sprite SPR_KLIT allocated.
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Cut.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Bot.lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_BattleMod.Lua
+Loading Lua script from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|Lua/Silver_Captions.lua
+--------------------------------------------------
+
+Silver the Hedgehog - v2.12 (SRB2 2.2.x)
+Please leave feedback / bug reports on the SRB2 Message Board thread.
+Alternatively, you can reach me on most SRB2 related Discord server as Lat'#7634
+
+Loading SOC from C:\Users\User\Desktop\Arquivos para edio\srb2\srb2\SRB2 v2.2\addons\characters\VCL_Silver-v2.12.pk3|SOC/SOC_PLAY
+VCL_Silver-v2.12.pk3 added 69 frames in 8 sprites
+WARNING: Bad sprite name: STNDA5 (
+WARNING: Bad sprite name: WAITA1 (
+WARNING: Bad sprite name: WAITA5 (
+WARNING: Bad sprite name: RUN_A1 (
+WARNING: Bad sprite name: RUN_A2 (
+WARNING: Bad sprite name: RUN_A3 (
+WARNING: Bad sprite name: RUN_A4 (
+WARNING: Bad sprite name: RUN_A5 (
+WARNING: Bad sprite name: RUN_A6 (
+WARNING: Bad sprite name: RUN_A7 (
+WARNING: Bad sprite name: RUN_A8 (
+WARNING: Bad sprite name: RUN_B1 (
+WARNING: Bad sprite name: RUN_B2 (
+WARNING: Bad sprite name: RUN_B3 (
+WARNING: Bad sprite name: RUN_B4 (
+WARNING: Bad sprite name: RUN_B5 (
+WARNING: Bad sprite name: RUN_B6 (
+WARNING: Bad sprite name: RUN_B7 (
+WARNING: Bad sprite name: RUN_B8 (
+WARNING: Bad sprite name: GASPA1 (
+WARNING: Bad sprite name: GASPA5 (
+WARNING: Bad sprite name: FALLA4 (
+WARNING: Bad sprite name: FALLB4 (
+WARNING: Bad sprite name: FALLA5 (
+WARNING: Bad sprite name: FALLB5 (
+WARNING: Bad sprite name: FALLA6 (
+WARNING: Bad sprite name: FALLB6 (
+WARNING: Bad sprite name: RIDEA1 (
+WARNING: Bad sprite name: RIDEA5 (
+WARNING: Bad sprite name: FLT_A5 (
+WARNING: Bad sprite name: FRUNA1 (
+WARNING: Bad sprite name: FRUNA5 (
+WARNING: Bad sprite name: FRUNB1 (
+WARNING: Bad sprite name: FRUNB5 (
+WARNING: Bad sprite name: GARDA1 (
+WARNING: Bad sprite name: GARDA5 (
+Added skin 'silver'
+No maps added
+Starting Server....
+Speeding off to level...
+$objectplace
+NOTICE: Game must be restarted to save progress.
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 100 at 2614, 463, 0, 271
+Placed object type 100 at 2611, 543, 0, 271
+Placed object type 100 at 2609, 607, 0, 271
+Placed object type 100 at 2609, 607, 0, 271
+Placed object type 100 at 2607, 671, 0, 271
+Placed object type 100 at 2606, 719, 0, 271
+Placed object type 100 at 2604, 783, 0, 271
+Placed object type 100 at 2602, 847, 0, 271
+Placed object type 100 at 2600, 910, 0, 271
+Placed object type 100 at 2598, 958, 0, 271
+Placed object type 100 at 2597, 990, 0, 271
+Placed object type 100 at 2595, 1038, 0, 271
+Placed object type 100 at 2593, 1102, 0, 271
+Placed object type 100 at 2592, 1150, 0, 271
+Placed object type 100 at 2590, 1198, 0, 271
+Placed object type 100 at 2589, 1246, 0, 271
+Placed object type 100 at 2587, 1310, 0, 271
+Placed object type 100 at 2586, 1342, 0, 271
+$0bjectplace
+Unknown command '0bjectplace'
+$objectplace
+Speeding off to level...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

@@ -1,0 +1,226 @@
+Compiled for SDL version: 2.0.20
+Linked with SDL version: 2.0.20
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2023 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+M_StartupLocale...
+Looking for WADs in: SRB2WADDIR,.
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 2047MB - Free: 2047MB
+I_InitializeTime()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\srb2.pk3 (12647 lumps)
+Loading SOC from C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_TITL
+Loading SOC from C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\srb2.pk3|SOC/SOC_LETR
+Added file C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\zones.pk3 (141 lumps)
+Loading SOC from C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_EMBM.txt
+Loading SOC from C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_HEAD.txt
+Loading SOC from C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/SOC_SECR.txt
+Loading SOC from C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\zones.pk3|SOC/Tutorial.txt
+Added file C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\player.dta (1869 lumps)
+Loading SOC from C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\player.dta|SOC_PLAY
+Added file C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\patch.pk3 (18 lumps)
+Added file C:\Users\User\Desktop\srb2\srb2\SRB2 v2.2\music.dta (181 lumps)
+I_StartupGraphics()...
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+Number of console HUD lines is now 5
+I_InitJoystick()...
+HU_LoadGraphics()...
+executing config.cfg
+Default resolution: 1280 x 800
+Windowed resolution: 640 x 400
+Default bit depth: 16 bits
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.pk3 added 5396 frames in 385 sprites
+patch.pk3 added 3 frames in 2 sprites
+R_InitColormaps()...
+S_InitSfxChannels(): Setting up sound channels.
+libopenmpt version: 0.4.7+r12088.pkg
+libopenmpt build date: 2019-09-23T10:02:47.236448Z
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Logfile: .\logs\log-2024-09-05_17-06-37.txt
+Entering main game loop...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 v2.2.13 (Sep  9 2023 01:19:03 a4a3b5b0 master) SDL Windows 32-bit 
+Starting Server....
+Speeding off to level...
+Starting Server....
+Connecting to: SRB2 server
+Gametype: Co-op
+Version: 2.2.13
+Speeding off to level...
+Speeding off to level...
+Speeding off to level...
+Speeding off to level...
+Speeding off to level...
+$devmode
+devmode <flags>: enable debugging tools and info, prepend with 0x to use hexadecimal
+$devmode enable
+NOTICE: Game must be restarted to save progress.
+$objectolace
+Unknown command 'objectolace'
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$off
+Unknown command 'off'
+$objectplace off
+No mobj type delegated to thing type 0.
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 100 at -12452, 2616, 528, 35
+Placed object type 133 at -11145, 3281, 632, 69
+Placed object type 2104 at -51, -5999, 1568, 235
+Placed object type 208 at 144, -6097, 1568, 219
+Placed object type 204 at 113, -5995, 1568, 158
+Placed object type 204 at 160, -6116, 1568, 243
+Placed object type 203 at 203, -6030, 1568, 131
+Placed object type 107 at 43, -6044, 1568, 232
+Placed object type 131 at 131, -5930, 1568, 232
+Placed object type 131 at 5, -6095, 800, 232
+Placed object type 131 at -122, -6261, 1568, 232
+Placed object type 131 at 157, -6162, 1568, 355
+Placed object type 131 at -146, -6137, 1568, 355
+Placed object type 131 at -61, -6001, 1568, 237
+Placed object type 131 at 16, -5879, 1568, 255
+$objectplace
+Speeding off to level...
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 207 at 263, -1605, 0, 37
+Placed object type 207 at 224, -1712, 0, 322
+Placed object type 419 at 212, -1831, 0, 349
+Placed object type 420 at 338, -1854, 0, 349
+Placed object type 421 at 324, -1997, 0, 264
+Placed object type 443 at 227, -2053, 0, 210
+Placed object type 450 at -64, -2222, 0, 210
+Placed object type 451 at -244, -2326, 0, 210
+Placed object type 2104 at 369, -2353, 0, 356
+Placed object type 1602 at 423, -2451, 16, 6
+Placed object type 1601 at 337, -2605, 16, 286
+Placed object type 129 at -379, -2415, 0, 162
+Placed object type 406 at 275, 710, 672, 3
+Placed object type 409 at 148, 703, 608, 3
+Placed object type 411 at 36, 697, 608, 3
+Placed object type 413 at -156, 687, 608, 3
+Placed object type 416 at -348, 677, 672, 3
+Placed object type 418 at -539, 666, 672, 3
+Placed object type 419 at -715, 657, 672, 3
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 406 at 21341, -881, 16, 88
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace]
+Unknown command 'objectplace]'
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 432 at -841, 1809, 0, 294
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 208 at -37, 1135, 0, 62
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectolace
+Unknown command 'objectolace'
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+Placed object type 406 at 275, -6022, 64, 262
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+$objectplace
+\\\\\\\\\\\\‚   Objectplace Controls:   €\\Weapon Next/Prev: Cycle mapthings\            Jump: Float up       \            Spin: Float down     \       Fire Ring: Place object   \
+$objectplace
+Speeding off to level...
+I_ShutdownGraphics(): shut down
+Shutting down joy system
+I_Joystick: SDL's Joystick system has been shutdown
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.
